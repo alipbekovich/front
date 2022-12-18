@@ -89,9 +89,8 @@ h1,h2,h3,h4,h5,h6{
     
 }
 .header_inner{
-    background: red; 
-    background-size: 100%;
-    position: fixed;
+    
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,15 +104,13 @@ h1,h2,h3,h4,h5,h6{
     color: rgb(240, 242, 245);
 }
 .nav{
-    background: red; 
-    background-size: 100%;
+    
     padding-left: 40vw;
     font-size: 14px;
     text-transform: uppercase;
 }
 .nav_link{
-    background: red; 
-    background-size: 100%;
+   
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
@@ -180,119 +177,13 @@ h1,h2,h3,h4,h5,h6{
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-     
-/* .secta{
-    background-image: url(	https://technext.github.io/coffee1/images/bg_4.jpg);
-    background-size: cover;
-}
-
-.red{
+ .coffee p{
+    color: red;
+    padding-top: 55vw;
+    padding-left: 34.5vw;
     font-size: 2vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-    padding-left: 40vw;
-}
-.coffee{
-    color: whitesmoke;
-    font-size: 2.5vw;
-    padding-right: 4vw;
-    padding-bottom: 5vw;
-    text-transform:uppercase;
-    text-align-last: center;
-}
-.back{
-   padding-top: 7vw;
-   padding-bottom: 4vw;
-}
-.cls{
-    position: relative;
-    padding-top: 1vw;
-    
-    font-size: 2vw;
-    color: rgba(255, 166, 0, 0.548);
-    margin-left: 6vw;
-}
-.staff{
-    padding-left: 13.1vw;
-}
-.sto{
-    position: relative;
-    padding-left: 14.3vw;
-}
-.eight{
-    padding-left: 13vw;
-}
-.str{
-    padding-left: 14.5vw;
-}
-.nine{
-    padding-left: 14.3vw;
-}
-
-.role{
- 
-    padding-left: 17.9vw;
-    color: white;
-}
-.num{
-    padding-left: 7.8vw;
-}
-.cust{
-    padding-left: 9.2vw;
-}
-.img{
-    padding-top: 1.2vw;
-    margin-left: 1.5vw;
-    padding-bottom: 2vw;
-    width: 4vw;
-    transform: none;
-}
-#square {
-	border: 1px solid rgba(255, 166, 0, 0.603);
-    height: 100px;
-    width: 100px;
-    margin-left: 18.7vw;
-}
-#square:hover{
-    background-color: rgba(255, 166, 0, 0.603);
-    transform: rotate(48deg);
-    margin-bottom: 1vw;
-    
-}   
-#square1{
-    border: 1px solid rgba(255, 166, 0, 0.603);
-    height: 100px;
-    width: 100px;
-    margin-left: 8.7vw;
-}
-#square1:hover{
-    background-color: rgba(255, 166, 0, 0.603);
-    transform: rotate(48deg);
-    margin-bottom: 1vw;
-    
-} 
-#square2{
-    border: 1px solid rgba(255, 166, 0, 0.603);
-    height: 100px;
-    width: 100px;
-    margin-left: 10.5vw;
-}
-#square2:hover{
-    background-color: rgba(255, 166, 0, 0.603);
-    transform: rotate(48deg);
-    margin-bottom: 1vw;
-    
-} 
-#square3{
-    border: 1px solid rgba(255, 166, 0, 0.603);
-    height: 100px;
-    width: 100px;
-    margin-left: 11vw;
-}
-#square3:hover{
-    background-color: rgba(255, 166, 0, 0.603);
-    transform: rotate(48deg);
-    margin-bottom: 1vw;
-    
-}  */
+ }
+ .query{
+    font-size: 1.2vw;
+    padding-left: 41vw;
+ }

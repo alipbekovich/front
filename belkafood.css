@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url(redcoffee.JPG);
+    background-image: url(img/belka.JPG);
+    overflow-x: hidden;
     background-repeat: no-repeat;
     background-size:100% ;
     /* font-family: 'Kaushan Script', cursive; */
@@ -15,6 +16,10 @@ body{
   
     box-sizing:border-box;
 }
+/* .aligncenter{
+   text-align: center;
+
+} */
 .secta{
     display: flex;
 }
@@ -235,7 +240,10 @@ h1,h2,h3,h4,h5,h6{
     
     text-align:center;
  }
-
+.product-img{
+    width: 23vw;
+    height: 20vw;
+}
 
 
  .product-item {
@@ -244,7 +252,6 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
     border-bottom: 2px solid #F5F5F5;
     background:lavenderblush;
-    
     font-family: "Open Sans";
     transition: .3s ease-in;
     
@@ -432,9 +439,4 @@ font-size: 0.9516837481698389vw;
  }
  #confirm_emails{
 font-size: 0.9516837481698389vw;
- }
- @media screen and(max-width:500px){
-    .cart-wrapper{
-        display: flexbox;
-    }
  }

@@ -15,25 +15,27 @@
    text-align: center;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: #0c3ee2;
-   font-size: 40px;
+   font-size: 2.9282576866764276vw;
   }
   .collab{
-   width: 230px;
+   width: 16.837481698389457vw;
    height: auto;
+   margin-left: 555px;
   }
   .collabs{
    display: flex;
   }
   .colabsss{
-   margin-left: 510px;
-   width: 100px;
+   margin-left: 37.33528550512445vw;
+   width: 7.320644216691069vw;
    height: auto;
   }
   .sdustore{
    text-align: center;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color:crimson;
-   font-size: 40px;
+   font-size: 2.9282576866764276vw;
+   margin-left: 20px;
   }
   .sdustore span{
    color: #021964;
@@ -190,15 +192,13 @@
     height: auto;
  }
  .imgintro1{
- width: 1200px;
+ width: 1350px;
  height: auto;
- margin-left:70px;
- margin-top: -80px;
+ margin-top: 50px;
  }
  .imgintro2{
-    width: 1200px;
+    width: 1350px;
     height: auto;
-    margin-left:70px;
     }
  .header{
     padding-top: 15px;
@@ -285,6 +285,7 @@
     background: #33CCCC; /* Fallback */
     animation: color 9s infinite linear;
     padding: 2em;
+    margin-top: -10px;
   }
  
   .choice {
@@ -349,3 +350,66 @@
  .dropdown:hover .dropdown-content {
    display: block;
  }
+ .animatess{
+   background-color:lightgrey;
+ }
+
+ #texttext {
+   color:#999;
+   text-transform: uppercase;
+   font-size:36px;
+   font-weight:bold;
+   padding-top:200px;  
+   position:fixed;
+   width:100%;
+   bottom:45%;
+   display:block;
+ }
+ 
+ #flip {
+   height:50px;
+   overflow:hidden;
+ }
+ 
+ #flip > div > div {
+   color:#fff;
+   padding:4px 12px;
+   height:45px;
+   margin-bottom:45px;
+   display:inline-block;
+ }
+ 
+ #flip div:first-child {
+   animation: show 5s linear infinite;
+ }
+ 
+ #flip div div {
+   background:#42c58a;
+ }
+ #flip div:first-child div {
+   background:#4ec7f3;
+ }
+ #flip div:last-child div {
+   background:#DC143C;
+ }
+ 
+ @keyframes show {
+   0% {margin-top:-270px;}
+   5% {margin-top:-180px;}
+   33% {margin-top:-180px;}
+   38% {margin-top:-90px;}
+   66% {margin-top:-90px;}
+   71% {margin-top:0px;}
+   99.99% {margin-top:0px;}
+   100% {margin-top:-270px;}
+ }
+ 
+ #texttext {
+   position:fixed;
+   width:100%;
+   bottom:30px;
+   font-size:12px;
+   color:#999;
+   margin-top:200px;
+ }
+

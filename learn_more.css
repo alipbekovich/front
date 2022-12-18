@@ -212,9 +212,9 @@ h1,h2,h3,h4,h5,h6{
     padding-left: 15vw;
   }
   .touch{
-    font-size: 3vw;
+    font-size: 3.1vw;
     padding-left: 12vw;
-    padding-top:3vw;
+    padding-top:7vw;
     color: rgb(226,159,1);
   }
   .puma{
@@ -223,7 +223,43 @@ h1,h2,h3,h4,h5,h6{
   .idea{
     padding-left: 38vw;
     text-align: center;
-    margin-top: -12vw;
+    margin-top: -10vw;
     font-size: 1.5vw;
     color: white;
+  }
+  .devel{
+    color: rgb(226,159,1);
+    font-size: 5vw;
+    padding-top:3vw;
+    padding-left: 20vw;
+    }
+  .developed{
+    padding-top: 12vw;
+    display: flex;
+  }
+  .current{
+    margin-top: -7vw;
+    font-size:1.5vw;
+    padding-right: 33.5vw;
+    text-align: center;
+    color: white;
+  }
+  .img{
+    margin-left: 20vw;
+    width: 20vw;
+  }
+  .photo{
+    width:20vw;
+    
+    margin-left: 12vw;
+  }
+  .best{
+    color: rgb(226,159,1);
+    font-size: 5vw;
+    margin-left: 20vw;
+    margin-top: -5vw;
+  }
+  
+  .were{
+    font-size: 7vw;
   }

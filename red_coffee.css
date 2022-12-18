@@ -1,6 +1,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background: url("C:\Users\Hp\Documents\GitHub\front\IMG_2011.JPG") center no-repeat;
+    background-image: url(redcoffee.JPG);
+    background-repeat: no-repeat;
+    background-size:100% ;
     /* font-family: 'Kaushan Script', cursive; */
      font-size: 15px;
      color: #333;
@@ -24,7 +26,7 @@ h1,h2,h3,h4,h5,h6{
   max-width: 1200px;
   margin: 0 auto;  
 }
-.intro{
+/* .intro{
     padding-top: 8vw;
     display: flex;
     flex-direction: column;
@@ -71,7 +73,7 @@ h1,h2,h3,h4,h5,h6{
      background-color: azure;
      margin: 60px AUTO  ;
 
-}
+} */
 .header{
     padding-top: 30px;
     position: absolute;
@@ -166,7 +168,7 @@ h1,h2,h3,h4,h5,h6{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
      
-.secta{
+/* .secta{
     background-image: url(	https://technext.github.io/coffee1/images/bg_4.jpg);
     background-size: cover;
 }
@@ -279,4 +281,4 @@ h1,h2,h3,h4,h5,h6{
     transform: rotate(48deg);
     margin-bottom: 1vw;
     
-} 
+}  */

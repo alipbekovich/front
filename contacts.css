@@ -253,46 +253,51 @@ body{
     height: 200vh;
  }
  @media only screen and (min-width:400px) and (max-width: 700px) {
-    .kkoz{
-        background-color: black;
-        position: relative;
-    top: 400px;
-    }
-    .forma{
-        position: relative;
-       left: 10px;
-       top: 10px;
-    }
-    .contar{
-        width: 20px;
-        height: 150px;
-        margin-top: 120vh;
-        margin-left: -200px;
+   .kkoz{
+       background-color: black;
+       position: relative;
+   top: 400px;
+   }
+   .forma{
+       position: relative;
+      left: 10px;
+      top: 10px;
+   }
+   .contar{
+       width: 20px;
+       height: 150px;
+       margin-top: 120vh;
+       margin-left: -200px;
 
-    }
-    .serv{
-        position: relative;
-        top:-300px
-    }
-    
+   }
+   .serv{
+       position: relative;
+       top:-300px
+   }
    
   
- }
+ 
+}
 
 
- @media only screen and (min-width: 768px) and(max-width:1024px) {
-   
-    .forma{
-      position: relative;
-      top: 200px;
-    }
-    .contar{
-        position: relative;
-        display: none;
-        top:200px;
-       
-    }
-
-  } 
-       
+@media only screen and (min-width: 768px) ,(orientation:landscape) {
   
+   .forma{
+     position: relative;
+     bottom: 150px;
+     left: 300px;
+   }
+   .contar{
+       position: relative;
+       display: none;
+       left: 0px;
+       top:300px;
+        left: -200px;
+       display: flex; 
+       width: 600px;
+       height: 600px;
+       
+     
+   }
+
+ } 

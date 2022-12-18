@@ -22,9 +22,11 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 .container{
+    
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;  
+  margin: 0 auto; 
+  
 }
 /* .intro{
     padding-top: 8vw;
@@ -75,31 +77,43 @@ h1,h2,h3,h4,h5,h6{
 
 } */
 .header{
-    padding-top: 30px;
+    background: red; 
+    background-size: 100%;
+    padding-top: 1vw;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
     width: 100%;
+    
 }
 .header_inner{
+    background: red; 
+    background-size: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .header_logo{
+    background: red; 
+    background-size: 100%;
     font-size: 30px;
     font-weight: 700;
     color: rgb(240, 242, 245);
 }
 .nav{
+    background: red; 
+    background-size: 100%;
     padding-left: 40vw;
     font-size: 14px;
     text-transform: uppercase;
 }
 .nav_link{
+    background: red; 
+    background-size: 100%;
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;

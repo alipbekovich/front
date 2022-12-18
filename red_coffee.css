@@ -1,0 +1,189 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(redcoffee.JPG);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    /* font-family: 'Kaushan Script', cursive; */
+     font-size: 15px;
+     color: #333;
+     line-height: 1.6;
+     margin: 0;
+}
+*,
+*:before,
+*:after{
+  
+    box-sizing:border-box;
+}
+.secta{
+    display: flex;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.container{
+    
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  
+}
+/* .intro{
+    padding-top: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+    animation: eye 20s infinite;
+    animation-iteration-count: infinite linear;
+    -webkit-background-size:cover ;
+      background-size: cover;
+}
+
+.intro_inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro_title{
+    margin-top: 10px;
+    color: rgb(239, 245, 250);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+     
+}
+.intro_sutitle{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(238, 244, 249, 0.918);
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+.intro_title:after{
+     content: "";
+     display: block;
+     width: 60PX;
+     height: 3PX;
+     background-color: azure;
+     margin: 60px AUTO  ;
+
+} */
+.header{
+    background: red; 
+    background-size: 100%;
+    padding-top: 1vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    
+}
+.header_inner{
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_logo{
+    background: red; 
+    background-size: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(240, 242, 245);
+}
+.nav{
+    
+    padding-left: 40vw;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav_link{
+   
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    transition: color .1s linearr;
+}
+.nav_link:after{
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    content: "";
+     display: block;
+    width: 100%;
+    height: 3px;
+    /* display: none; */
+    background-color: yellow;
+    position: absolute;
+    transition: opacity .1s linear;
+
+}
+.nav_link:hover{
+    color:yellow ;
+    
+}
+.nav_link:hover:after{
+ opacity: 1;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9c5;
+    min-width: 80px;
+    max-height: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1b4}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+ .coffee p{
+    color: red;
+    padding-top: 55vw;
+    padding-left: 34.5vw;
+    font-size: 2vw;
+ }
+ .query{
+    font-size: 1.2vw;
+    padding-left: 41vw;
+ }

@@ -284,13 +284,13 @@ body{
    
     .forma{
       position: relative;
-      top: -200px;
+      top: 200px;
     }
     .contar{
         position: relative;
         display: none;
-        top:700px;
-        bottom: -600px;
+        top:200px;
+       
     }
 
   } 

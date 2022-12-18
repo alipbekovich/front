@@ -299,5 +299,44 @@ body{
        
      
    }
- medjjnvkmc,xs
+
  } 
+ @media only screen and (min-width: 880px) and (max-width:1024px) {
+  .forma{
+     position: relative;
+     bottom: 350px;
+     left: 500px;
+   } 
+   .contar{
+     position: relative;
+     display: flex;
+      top:300px;
+     left: 10px;
+     top: 40px;
+     display: flex; 
+     width: 600px;
+     height: 600px;
+     
+   
+ }  
+ 
+}
+@media  only screen and (min-width:1200px) {
+     .forma{
+           position: relative;
+           left: 700px;
+           bottom: 350px;
+     }
+     .contar{
+        position: relative;
+        display: flex;
+         top:0px;
+        left: 10px;
+        top: 40px;
+        display: flex; 
+        width: 600px;
+        height: 600px;
+        
+      
+    } 
+}

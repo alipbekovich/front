@@ -191,12 +191,12 @@ h1,h2,h3,h4,h5,h6{
  .cont img{
     padding-top: 5vw;
     width: 8vw;
-    margin-left: 18vw;
+    margin-left: 19vw;
  }
  .roast{
     padding-top: 3vw;
     display: flex;
-    padding-left: 16.7vw;
+    padding-left: 18.5vw;
  }
  .roast p{
     font-size: 1.5vw;
@@ -204,33 +204,34 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: -1vw;
  }
  .border{
-    margin-left: 18.5vw;
-    margin-right: 75vw;
+    margin-left: 20.5vw;
+    margin-right: 72vw;
     border:1px solid grey;
  }
  .bord{
-    margin-left: 45vw;
-    margin-right: 46.3vw;
+    margin-left: 47vw;
+    margin-right: 44.3vw;
     border:1px solid grey;
    
  }
  .bords{
-    margin-left: 73vw;
-    margin-right: 20.1vw;
+    margin-left: 75vw;
+    margin-right: 18.1vw;
     border:1px solid grey;
  }
  .where{
     font-size: 1.2vw;
-    padding-left: 17.5vw;
+    padding-left: 19.5vw;
     display: flex;
     font-weight: bolder;
     
  }
  .whym{
+    display: flex;
     padding-bottom: 15vw;
  }
  .whym p{
     font-size: 1vw;
-    padding-left: 15vw;
-    text-decoration: none;
+    
+    text-align:center;
  }

@@ -235,7 +235,10 @@ h1,h2,h3,h4,h5,h6{
     
     text-align:center;
  }
-
+.product-img{
+    width: 23vw;
+    height: 20vw;
+}
 
 
  .product-item {
@@ -370,99 +373,6 @@ h1,h2,h3,h4,h5,h6{
    padding-top: -1.4641288433382138vw;
  }
 
- /*Home*/
- body{
-   font-family: 'Montserrat', sans-serif;
-   /* font-family: 'Kaushan Script', cursive; */
-    font-size: 1.0980966325036603vw;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-}
-*,
-*:before,
-*:after{
- 
-   box-sizing:border-box;
-}
-h1,h2,h3,h4,h5,h6{
-   margin: 0;
-}
-.container{
- width: 100%;
- max-width: 87.84773060029282vw;
- margin: 0 auto;  
-}
-
-.imgintro{
-   margin-left: 1.7569546120058566vw;
-   width: 95.1683748169839vw;
-   height: auto;
-}
-.imgintro1{
-width: 1200px;
-height: auto;
-margin-left:70px;
-margin-top: -80px;
-}
-.imgintro2{
-   width: 1200px;
-   height: auto;
-   margin-left:70px;
-   }
-.header{
-   padding-top: 15px;
-   position: absolute;
-   top: 0;
-   left: 0;
-   right: 0;
-   z-index: 1000;
-   width: 100%;
-}
-.header_inner{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-.header_logo{
-   font-size:  2.1961932650073206vw;
-   font-weight: 700;
-   color: rgb(240, 242, 245);
-}
-.nav{
-   font-size: 14px;
-   text-transform: uppercase;
-}
-.nav_link{
-   display: inline-block;
-   vertical-align: top;
-   margin: 0 15px;
-   color: white;
-   position: relative;
-   text-decoration: none;
-   transition: color .1s linearr;
-}
-.nav_link:after{
-   top: 100%;
-   left: 0;
-   z-index: 1;
-   opacity: 0;
-   content: "";
-    display: block;
-   width: 100%;
-   height: 3px;
-   /* display: none; */
-   background-color: yellow;
-   position: absolute;
-   transition: opacity .1s linear;
-
-}
-.nav_link:hover{
-   color:yellow ;
-}
-.nav_link:hover:after{
-opacity: 1;
-}
 /*button*/
 .btn{
    display: inline-block;

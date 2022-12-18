@@ -215,10 +215,22 @@ h1,h2,h3,h4,h5,h6{
    
  }
  .bords{
-    margin-left: 45vw;
-    margin-right: 46.3vw;
+    margin-left: 73vw;
+    margin-right: 20.1vw;
     border:1px solid grey;
  }
  .where{
+    font-size: 1.2vw;
+    padding-left: 17.5vw;
+    display: flex;
+    font-weight: bolder;
+    
+ }
+ .whym{
     padding-bottom: 15vw;
+ }
+ .whym p{
+    font-size: 1vw;
+    padding-left: 15vw;
+    text-decoration: none;
  }

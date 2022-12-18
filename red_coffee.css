@@ -187,3 +187,38 @@ h1,h2,h3,h4,h5,h6{
     font-size: 1.2vw;
     padding-left: 41vw;
  }
+ 
+ .cont img{
+    padding-top: 5vw;
+    width: 8vw;
+    margin-left: 18vw;
+ }
+ .roast{
+    padding-top: 3vw;
+    display: flex;
+    padding-left: 16.7vw;
+ }
+ .roast p{
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-bottom: -1vw;
+ }
+ .border{
+    margin-left: 18.5vw;
+    margin-right: 75vw;
+    border:1px solid grey;
+ }
+ .bord{
+    margin-left: 45vw;
+    margin-right: 46.3vw;
+    border:1px solid grey;
+   
+ }
+ .bords{
+    margin-left: 45vw;
+    margin-right: 46.3vw;
+    border:1px solid grey;
+ }
+ .where{
+    padding-bottom: 15vw;
+ }

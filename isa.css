@@ -208,7 +208,7 @@
  }
  
  .imgintro{
-    margin-left: 1.7569546120058566vw;
+    margin-left: 3.7569546120058566vw;
     width: 95.1683748169839vw;
     height: auto;
  }
@@ -494,4 +494,138 @@
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin-left: 560px;
+}
+
+@media (max-width: 700px) {
+   .imgintro{
+      width: 95.1683748169839vw;
+      height: 100vh;
+   }
+   .imgintro1{
+      width: 98.82869692532942vw;
+      height: 20vh;
+   }
+   .imgintro2{
+      width: 98.82869692532942vw;
+      height: 20vh;
+   }
+   .qr .spacing{
+      margin-left: 80px;
+   }
+   .qr .xxxx{
+display: none;
+   }
+   .qr .colortext{
+      display: none;
+   }
+   /*FOOTER*/
+	.footer {
+		height: 400px;
+	}
+
+	.logo_footer {
+		margin-top: -20px;
+		margin-left: 190px;
+	}
+
+	.column_1_footer {
+		margin-left: -420px;
+		margin-right: 45px;
+		margin-top: 80px;
+	}
+
+	.column_2_footer {
+		margin-top: 80px;
+	}
+
+	.column_3_footer {
+		margin-top: 80px;
+		margin-left: -155px;
+	}
+
+	.copyright_footer {
+		margin-left: 150px;
+      margin-top: 295px;
+	}
+
+	/*REGISTRATON*/
+	.popup-content {
+		width: 400px;
+		margin-top: -60px;
+	}
+
+	#username {
+		margin-left: 90px;
+	}
+
+	#password {
+		margin-left: 90px;
+	}
+}
+
+@media (max-width: 1024px) {
+   .imgintro{
+      width: 95.1683748169839vw;
+      height: 100vh;
+   }
+   .imgintro1{
+      width: 98.82869692532942vw;
+      height: 20vh;
+   }
+   .imgintro2{
+      width: 98.82869692532942vw;
+      height: 20vh;
+   }
+   .qr .spacing{
+      margin-left: 80px;
+   }
+   .qr .xxxx{
+display: none;
+   }
+   .qr .colortext{
+      display: none;
+   }
+   /*FOOTER*/
+	.footer {
+		height: 400px;
+	}
+
+	.logo_footer {
+		margin-top: -20px;
+		margin-left: 190px;
+	}
+
+	.column_1_footer {
+		margin-left: -420px;
+		margin-right: 45px;
+		margin-top: 80px;
+	}
+
+	.column_2_footer {
+		margin-top: 80px;
+	}
+
+	.column_3_footer {
+		margin-top: 80px;
+		margin-left: -155px;
+	}
+
+	.copyright_footer {
+		margin-left: 150px;
+		margin-top: 295px;
+	}
+
+	/*REGISTRATON*/
+	.popup-content {
+		width: 400px;
+		margin-top: -60px;
+	}
+
+	#username {
+		margin-left: 90px;
+	}
+
+	#password {
+		margin-left: 90px;
+	}
 }

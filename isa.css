@@ -588,7 +588,129 @@
    .header_logo{
       display: none;
    }
-}
+   .main{
+      display: inline-block;
+    }
+    .product-list p{
+      font-size: 10vw;
+    }
+    .class{margin-top: 2vw;}
+    .product-list h3{
+      font-size: 5vw;
+    }
+    .button{
+      font-size: 4vw;
+      height: 5vw;
+    }
+    .small{
+      font-size:4vw;
+    }
+    .product-item{
+      width: 60vw;
+      align-items: center;
+      margin-left: 18vw;
+    }
+   
+    .main2{
+      display: inline-block;
+      
+    }
+    .main3{
+      display: inline-block;
+      
+    }
+    .main4{
+      display: inline-block;
+      margin-left: -3.5vw;
+    }
+    
+  .hoodie{
+    margin-left: -10vw;
+    margin-top: -2vw;
+  }
+  .gmail{
+    margin-left: -20vw;
+  } 
+  .price__currency{
+   font-size: large;
+  }
+  .colss{
+   font-size: large;
+  }
+  .choice{
+   font-size: large;
+  }
+  .card-title{
+   font-size: large;
+  }
+  .Pusto{
+   background-color: #444444;
+   background-size: 10.8301610541727673vw;
+   color: #fafafa;
+   height: 8.8301610541727673vw;
+   font-size: 20px;
+  }
+  .card-total ,.h4, .delivery-cost, .h5, .total-price, .rouble{
+   font-size: large;
+  }
+  .card-total .small{
+   font-size: smaller;
+  }
+ 
+   }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
    .imgintro{

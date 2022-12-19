@@ -568,11 +568,12 @@ h1,h2,h3,h4,h5,h6{
   .header_inner{
     display: inline;
   }
-  
+  .header{
+    padding-left: 3vw;
+  }
   .nav_link{
-    
     font-size: 1.5vw;
-    margin-top: -7vw;
+    margin-top: -3vw;
     padding-top: -13vw;
   }
   .nike{

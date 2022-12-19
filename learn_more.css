@@ -501,5 +501,53 @@ h1,h2,h3,h4,h5,h6{
   .cost{
     margin-top: -2vw;
   }
-  
-}                                                                                                                                                                                                     
+  .footer {
+		height: 400px;
+	}
+
+	.logo_footer {
+		margin-top: -20px;
+		margin-left: 190px;
+	}
+
+	.column_1_footer {
+		margin-left: -420px;
+		margin-right: 45px;
+		margin-top: 80px;
+	}
+
+	.column_2_footer {
+		margin-top: 80px;
+	}
+
+	.column_3_footer {
+		margin-top: 80px;
+		margin-left: -155px;
+	}
+
+	.copyright_footer {
+		margin-left: 150px;
+		margin-top: 295px;
+	}
+
+	/*REGISTRATON*/
+	.popup-content {
+		width: 400px;
+		margin-top: -60px;
+	}
+
+	#username {
+		margin-left: 90px;
+	}
+
+	#password {
+		margin-left: 90px;
+	}
+  .hoodie{
+    margin-left: -30vw;
+    margin-top: -2vw;
+  }
+  .gmail{
+    margin-left: -10vw;
+  }
+}                                                                                                                                                                                                

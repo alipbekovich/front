@@ -1,0 +1,480 @@
+body{
+   background-color: rgb(34, 30, 34);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+     font-size: 15px;
+     color: #333;
+     line-height: 1.6;
+     margin: 0;
+     overflow-x: hidden
+     
+ }
+ *,
+ *:before,
+ *:after{
+  
+    box-sizing:border-box;
+ }
+ h1,h2,h3,h4,h5,h6{
+    margin: 0;
+ }
+
+ .container{
+ 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;  
+ }
+ .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("ss.jpg") center no-repeat;
+    animation: eye 20s infinite;
+    animation-iteration-count: infinite linear;
+    -webkit-background-size:cover ;
+      background-size: cover;
+ }
+ @keyframes eye{
+    20%{background-image: url(koo.jpg);}
+    45%{background-image: url(ss.jpg);}
+     65%{background-image: url(ph.jpeg);}
+ }
+ .intro_inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .intro_title{
+    margin-top: 10px;
+    color: white;
+    color: rgb(239, 245, 250);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+     
+ }
+ .intro_sutitle{
+    
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(238, 244, 249, 0.918);
+    font-family: 'Kaushan Script', cursive;
+    
+ }
+ 
+ .intro_title:after{
+     content: "";
+     display: block;
+     width: 60PX;
+     height: 3PX;
+     background-color: azure;
+     margin: 60px AUTO  ;
+ 
+ }
+ .header{
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+ }
+ .header_inner{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .header_logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(240, 242, 245);
+ }
+ .nav{
+    /* position: fixed; */
+    font-size: 14px;
+    text-transform: uppercase;
+ }
+ .nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    transition: color .1s linearr;
+ }
+ .nav_link:after{
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    content: "";
+     display: block;
+    width: 100%;
+    height: 3px;
+    /* display: none; */
+    background-color: yellow;
+    position: absolute;
+    transition: opacity .1s linear;
+ 
+ }
+ .nav_link:hover{
+    color:yellow ;
+ }
+ .nav_link:hover:after{
+ opacity: 1;
+ }
+ .team_members {
+	text-align: center;
+	margin-top: 150px;
+	padding-bottom: 150px;
+   margin-left: 30px;
+}
+
+#team_members_text {
+	text-transform: uppercase;
+	color:azure;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.team_members hr {
+	margin-right: 49%;
+	margin-left: 49%;
+	color: white;
+}
+
+#team_members_h1 {
+	color: gold;
+	font-family: 'Abril Fatface', display;
+   font-size: 50px;
+}
+
+.team_members_people {
+	display: flex;
+	margin-left: 60px;
+	margin-top: 70px;
+}
+
+#people_1_image {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#people_1_name {
+	font-size: 25px;
+	color: whitesmoke;
+	font-family: 'Abril Fatface', display;
+}
+
+#people_1_profession{
+	color: #A1A1A1;
+	margin-top: -15px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.people_2 {
+	margin-right: 20px;
+}
+
+#people_2_image {
+	margin-bottom: 20px;
+}
+
+#people_2_name {
+	font-size: 25px;
+	color: whitesmoke;
+	font-family: 'Abril Fatface', display;
+}
+
+#people_2_profession{
+	color: #A1A1A1;
+	margin-top: -15px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#people_3_image {
+	margin-bottom: 20px;
+}
+
+#people_3_name {
+	font-size: 25px;
+	color: whitesmoke;
+	font-family: 'Abril Fatface', display;
+}
+
+#people_3_profession{
+	color: #A1A1A1;
+	margin-top: -15px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.people_3 {
+	margin-right: 20px;
+}
+
+#people_4_image {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#people_4_name {
+	font-size: 25px;
+	color: whitesmoke;
+	font-family: 'Abril Fatface', display;
+}
+
+#people_4_profession{
+	color: #A1A1A1;
+	margin-top: -15px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.footer {
+	height: 330px;
+	/* background-color: #25292C; */
+	display: flex;
+	color: white;
+	padding-top: 80px;
+	/* background-color: #1A1A1A; */
+	background-color: #221E22;
+	border-top: 1px dashed gold;
+}
+
+.logo_footer {
+	margin-left: 100px;
+	margin-right: 170px;
+	display: flex;
+	margin-top: 37px;
+}
+
+.logo_image_footer {
+	margin-right: 0px;
+	cursor: pointer;
+   margin-top: -30px;
+}
+
+.logo_text_footer {
+	padding-top: 3px;
+	cursor: pointer;
+}
+
+.logo_footer h1 {
+	font-size: 20px;
+	font-family: 'Abril Fatface', display;
+	cursor: pointer;
+	/* color: wheat; */
+	color: #F0F0F0;
+}
+
+.logo_footer p {
+	font-size: 10px;
+	margin-top: -6px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	color: #A1A1A1;
+	cursor: pointer;
+}
+
+.column_1_footer {
+	margin-right: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+	/* color: wheat; */
+	color: #F0F0F0;
+	transition: 0.5s all;
+   margin-left: 50px;
+}
+
+.column_1_footer div:hover {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+	/* color: #FC653E; */
+	color: #e29f01;
+}
+
+.column_2_footer {
+	margin-right: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+	/* color: wheat; */
+	color: #F0F0F0;
+   margin-left: 7.320644216691069vw;
+}
+
+.column_2_footer div:hover {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	cursor: pointer;
+	/* color: #FC653E; */
+	color: #e29f01;
+}
+
+#darme_footer:hover {
+	/* color: wheat; */
+	color: #F0F0F0;
+}
+
+.column_3_footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: whitesmoke;
+   margin-left: 1.856515373352855vw;
+}
+
+.column_3_div12{
+	color: #00AEEF;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.copyright_footer {
+	color: #ADADAD;
+	position: absolute;
+	text-decoration: none;
+	margin-top: 225px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-left: 560px;
+}
+
+
+@media (max-width: 700px) {
+   .team_members_people {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#team_members_h1 {
+		margin-bottom: 70px;
+	}
+
+	.people_1 {
+		margin-bottom: 80px;
+	}
+
+	#people_1_image {
+		transform: scale(1.3);
+		margin-left: -40px;
+	}
+
+	#people_1_name {
+		margin-top: 40px;
+		margin-left: -40px;
+	}
+
+	#people_1_profession {
+		margin-left: -40px;
+	}
+
+	.people_2 {
+		margin-bottom: 80px;
+	}
+
+	#people_2_image {
+		transform: scale(1.3);
+		margin-left: -40px;
+	}
+
+	#people_2_name {
+		margin-top: 40px;
+		margin-left: -40px;
+	}
+
+	#people_2_profession {
+		margin-left: -40px;
+	}
+
+	.people_3 {
+		margin-bottom: 80px;
+	}
+
+	#people_3_image {
+		transform: scale(1.3);
+		margin-left: -40px;
+	}
+
+	#people_3_name {
+		margin-top: 40px;
+		margin-left: -40px;
+	}
+
+	#people_3_profession {
+		margin-left: -40px;
+	}
+
+	#people_4_image {
+		transform: scale(1.3);
+		margin-left: -40px;
+	}
+
+	#people_4_name {
+		margin-top: 40px;
+		margin-left: -40px;
+	}
+
+	#people_4_profession {
+		margin-left: -40px;
+	}
+
+	/*FOOTER*/
+	.footer {
+		height: 400px;
+	}
+
+	.logo_footer {
+		margin-top: -20px;
+		margin-left: 190px;
+	}
+
+	.column_1_footer {
+		margin-left: -420px;
+		margin-right: 45px;
+		margin-top: 80px;
+	}
+
+	.column_2_footer {
+		margin-top: 80px;
+	}
+
+	.column_3_footer {
+		margin-top: 80px;
+		margin-left: -155px;
+	}
+
+	.copyright_footer {
+		margin-left: 150px;
+		margin-top: 295px;
+	}
+
+	/*REGISTRATON*/
+	.popup-content {
+		width: 400px;
+		margin-top: -60px;
+	}
+
+	#username {
+		margin-left: 90px;
+	}
+
+	#password {
+		margin-left: 90px;
+	}
+}

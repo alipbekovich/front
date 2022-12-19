@@ -410,6 +410,18 @@ h1,h2,h3,h4,h5,h6{
   padding-left: 27vw;
 }
 @media(max-width:667px){
+  .header_inner{
+    display: inline;
+  }
+  .container{
+    margin-bottom: -6vw;
+  }
+  .nav_link{
+    margin-left: -2vw;
+    font-size: 2.3vw;
+    margin-top: -7vw;
+    padding-top: -13vw;
+  }
   .nike{
     font-size: 4vw;
     color: rgba(255, 255, 255, 0.404);
@@ -553,6 +565,16 @@ h1,h2,h3,h4,h5,h6{
   }
 }   
 @media screen and (min-width:667px) and (max-width:1024px){
+  .header_inner{
+    display: inline;
+  }
+  
+  .nav_link{
+    
+    font-size: 1.5vw;
+    margin-top: -7vw;
+    padding-top: -13vw;
+  }
   .nike{
     font-size: 4vw;
     color: rgba(255, 255, 255, 0.404);

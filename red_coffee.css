@@ -502,8 +502,31 @@ font-size: 0.9516837481698389vw;
  #confirm_emails{
 font-size: 0.9516837481698389vw;
  }
- @media screen and(max-width:500px){
-    .cart-wrapper{
-        display: flexbox;
+ @media(max-width:667px){
+    .header_inner{
+      display: inline;
     }
- }
+    .container{
+      margin-bottom: -6vw;
+    }
+    .nav_link{
+      margin-left: -2vw;
+      font-size: 2.3vw;
+      margin-top: -7vw;
+      padding-top: -13vw;
+    }
+    body{
+      background-image: url(ss.jpg);
+      background-position: bottom 50px right 100px;
+    }
+    .club{
+      padding-top: 75vw;
+    }
+    .main{
+      display: inline-block;
+    }
+    .product-list p{
+      font-size: 10vw;
+    }
+    
+   }

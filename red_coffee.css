@@ -502,7 +502,33 @@ font-size: 0.9516837481698389vw;
  #confirm_emails{
 font-size: 0.9516837481698389vw;
  }
+ .togglesss{
+   display: block;
+   cursor: pointer;
+}
+.nav{
+   display: block;
+   text-align: center;
+   padding-top: 10px;
+   font-size: 20px;
+}
+#toggle:checked + .container{
+   display: none;
+} 
+.header_logo{
+   display: none;
+}
  @media screen and(max-width:667px){
+   #toggle{
+      display: none;
+   }
+   .navs{
+      float: left;
+   }
+   .togglesss{
+      margin: 20px 0 0 20px;
+      font-size: 30px;
+   }
    .cont{
       display: inline-block;  
    }
@@ -624,7 +650,7 @@ font-size: 0.9516837481698389vw;
     margin-left: -20vw;
   } 
    }
-   @media (max-width:1024px){
+   @media(max-width:1024px){
       .coffee p{
          margin-left: -18vw;
          font-size:4vw;

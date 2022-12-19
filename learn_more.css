@@ -396,3 +396,91 @@ h1,h2,h3,h4,h5,h6{
   text-align: center;
   margin-left: 560px;
 }
+.zaq{
+  padding-top: 12vw;
+    display: flex;
+}
+.cucu{
+  margin-left: 13vw;
+    width: 20vw;
+}
+.develo{
+  color: rgb(226,159,1);
+  font-size: 5vw;
+  padding-top:3vw;
+  padding-left: 27vw;
+}
+@media(max-width:700px){
+  .nike{
+    font-size: 4vw;
+    color: rgba(255, 255, 255, 0.404);
+    
+    text-align: center;
+  }
+  .adidas{
+    padding-top: 5vw;
+    font-size: 3.1vw;
+    margin-left: 2vw;
+    color: wheat;
+    margin-right: 2vw;
+  }
+  .puma{
+    display: inline-block;
+  }
+  .suret{
+    font-weight: bold;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+    margin-left: 15vw;
+    width: 50vw;
+  }
+  .touch{
+    font-size: 5vw;
+    margin-left: -72vw;
+  }
+  .idea{
+    text-align: center;
+    padding-top: 15vw;
+    font-size: 3.5vw;
+    margin-left: -40vw;
+  }
+  .developed{
+    display: inline-block;
+  }
+  .img{
+    margin-top: 5vw;
+    width: 30vw;
+    margin-bottom: 20vw;
+    margin-left: -6vw;
+  }
+  .devel{
+    
+    margin-bottom: -60vw;
+    margin-left: -14vw;
+    font-size: 6vw;
+  }
+  .current{
+    text-align: center;
+    margin-right: -33vw;
+    padding-top: 15vw;
+    font-size: 2.9vw;
+  }
+  .zaq{
+    display: block;
+  }
+  .class{
+    padding-top: 30vw;
+    padding-bottom: 50vw;
+  }
+  .cucu{
+    margin-top: 5vw;
+    width: 30vw;
+    margin-bottom: 25vw;
+    margin-left: 35vw;
+  }
+  .develo{
+    text-align: center;
+    padding-top: 65vw;
+    margin-left: -80vw;
+  }
+}                                                                                                                                                                                                     

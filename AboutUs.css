@@ -356,6 +356,52 @@ body{
 }
 
 
+.dropdown {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9c5;
+	min-width: 80px;
+	max-height: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1b4}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+  #toggle{
+	display: none;
+ }
+ .navs{
+	float: left;
+ }
+ .togglesss{
+	margin: 20px 0 0 20px;
+	font-size: 30px;
+ }
+
+
 @media (max-width: 700px) {
    .team_members_people {
 		display: flex;
@@ -477,4 +523,147 @@ body{
 	#password {
 		margin-left: 90px;
 	}
+	.togglesss{
+		display: block;
+		cursor: pointer;
+	 }
+	 .nav{
+		display: block;
+		text-align: center;
+		padding-top: 10px;
+		font-size: 20px;
+	 }
+	 #toggle:checked + .container{
+		display: none;
+	 } 
+	 .header_logo{
+		display: none;
+	 }
+	 .header{
+		background-color: #e29f01;
+	 }
 }
+
+
+@media screen and(min-width:700px)and(max-width: 1024px) {
+	.team_members_people {
+		 display: flex;
+		 flex-direction: column;
+	 }
+ 
+	 #team_members_h1 {
+		 margin-bottom: 70px;
+	 }
+ 
+	 .people_1 {
+		 margin-bottom: 80px;
+	 }
+ 
+	 #people_1_image {
+		 transform: scale(1.3);
+		 margin-left: -40px;
+	 }
+ 
+	 #people_1_name {
+		 margin-top: 40px;
+		 margin-left: -40px;
+	 }
+ 
+	 #people_1_profession {
+		 margin-left: -40px;
+	 }
+ 
+	 .people_2 {
+		 margin-bottom: 80px;
+	 }
+ 
+	 #people_2_image {
+		 transform: scale(1.3);
+		 margin-left: -40px;
+	 }
+ 
+	 #people_2_name {
+		 margin-top: 40px;
+		 margin-left: -40px;
+	 }
+ 
+	 #people_2_profession {
+		 margin-left: -40px;
+	 }
+ 
+	 .people_3 {
+		 margin-bottom: 80px;
+	 }
+ 
+	 #people_3_image {
+		 transform: scale(1.3);
+		 margin-left: -40px;
+	 }
+ 
+	 #people_3_name {
+		 margin-top: 40px;
+		 margin-left: -40px;
+	 }
+ 
+	 #people_3_profession {
+		 margin-left: -40px;
+	 }
+ 
+	 #people_4_image {
+		 transform: scale(1.3);
+		 margin-left: -40px;
+	 }
+ 
+	 #people_4_name {
+		 margin-top: 40px;
+		 margin-left: -40px;
+	 }
+ 
+	 #people_4_profession {
+		 margin-left: -40px;
+	 }
+ 
+	 /*FOOTER*/
+	 .footer {
+		 height: 400px;
+	 }
+ 
+	 .logo_footer {
+		 margin-top: -20px;
+		 margin-left: 280px;
+	 }
+ 
+	 .column_1_footer {
+		 margin-left: -420px;
+		 margin-right: 45px;
+		 margin-top: 80px;
+	 }
+ 
+	 .column_2_footer {
+		 margin-top: 80px;
+	 }
+ 
+	 .column_3_footer {
+		 margin-top: 80px;
+		 margin-left: -155px;
+	 }
+ 
+	 .copyright_footer {
+		 margin-left: 150px;
+		 margin-top: 295px;
+	 }
+ 
+	 /*REGISTRATON*/
+	 .popup-content {
+		 width: 400px;
+		 margin-top: -60px;
+	 }
+ 
+	 #username {
+		 margin-left: 90px;
+	 }
+ 
+	 #password {
+		 margin-left: 90px;
+	 }
+ }

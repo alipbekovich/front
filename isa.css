@@ -506,8 +506,13 @@
    margin: 20px 0 0 20px;
    font-size: 30px;
 }
-
+.togglesss{
+   display: none;
+}
 @media (max-width: 700px) {
+   .togglesss{
+      display: block;
+   }
    .imgintro{
       width: 95.1683748169839vw;
       height: 100vh;
@@ -573,21 +578,26 @@
 		margin-left: 90px;
 	}
    .togglesss{
-      display: block;
-      cursor: pointer;
-   }
-   .nav{
-      display: block;
-      text-align: center;
-      padding-top: 10px;
-      font-size: 20px;
-   }
-   #toggle:checked + .container{
-      display: none;
-   } 
-   .header_logo{
-      display: none;
-   }
+		display: block;
+		cursor: pointer;
+	 }
+	 .nav{
+		display: block;
+		text-align: center;
+		padding-bottom: 160px;
+		padding-top: 80px;
+		font-size: 50px;
+	 }
+	 #toggle:checked + .container{
+		display: none;
+	 } 
+	 .header{
+		background-color:  rgb(110, 47, 47);
+		opacity: 0.9;
+	 }
+	 .header_logo{
+		display: none;
+	 } 
    .main{
       display: inline-block;
     }

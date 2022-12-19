@@ -40,7 +40,7 @@ body{
  @keyframes eye{
     20%{background-image: url(koo.jpg);}
     45%{background-image: url(ss.jpg);}
-     65%{background-image: url(ph.jpeg);}
+     65%{background-image: url(https://avatars.mds.yandex.net/get-altay/4335161/2a00000179a759b5e135f0a43a169c749ce3/XXXL);}
  }
  .intro_inner{
     width: 100%;
@@ -399,6 +399,7 @@ body{
  .togglesss{
 	margin: 20px 0 0 20px;
 	font-size: 30px;
+	display: none;
  }
 
 

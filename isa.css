@@ -496,6 +496,17 @@
 	margin-left: 560px;
 }
 
+#toggle{
+   display: none;
+}
+.navs{
+   float: left;
+}
+.togglesss{
+   margin: 20px 0 0 20px;
+   font-size: 30px;
+}
+
 @media (max-width: 700px) {
    .imgintro{
       width: 95.1683748169839vw;
@@ -513,7 +524,7 @@
       margin-left: 80px;
    }
    .qr .xxxx{
-display: none;
+   display: none;
    }
    .qr .colortext{
       display: none;
@@ -561,6 +572,22 @@ display: none;
 	#password {
 		margin-left: 90px;
 	}
+   .togglesss{
+      display: block;
+      cursor: pointer;
+   }
+   .nav{
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 20px;
+   }
+   #toggle:checked + .container{
+      display: none;
+   } 
+   .header_logo{
+      display: none;
+   }
 }
 
 @media (max-width: 1024px) {

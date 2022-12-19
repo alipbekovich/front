@@ -502,7 +502,10 @@ font-size: 0.9516837481698389vw;
  #confirm_emails{
 font-size: 0.9516837481698389vw;
  }
- @media(max-width:667px){
+ @media screen and(max-width:667px){
+   .cont{
+      display: inline-block;  
+   }
    .coffee p{
       margin-left: -18vw;
       font-size:4vw;
@@ -518,6 +521,7 @@ font-size: 0.9516837481698389vw;
     .container{
       margin-bottom: -6vw;
     }
+
     .card-title{
     font-size:4vw ;
     }
@@ -528,11 +532,10 @@ font-size: 0.9516837481698389vw;
       padding-top: -13vw;
     }
     #emails{
-      width: 5vw;
+      font-size: 4vw;
     }
-    
-    .club{
-      padding-top: 25vw;
+    #confirm_emails{
+      font-size: 4vw;
     }
     .main{
       display: inline-block;
@@ -621,3 +624,125 @@ font-size: 0.9516837481698389vw;
     margin-left: -20vw;
   } 
    }
+   @media (max-width:1024px){
+      .coffee p{
+         margin-left: -18vw;
+         font-size:4vw;
+      }
+      .query{
+         margin-left: -14vw;
+         font-size: 3vw;
+      }
+   
+       .header_inner{
+         display: inline;
+       }
+       .container{
+         margin-bottom: -6vw;
+       }
+       .card-title{
+       font-size:4vw ;
+       }
+       .nav_link{
+         margin-left: -2vw;
+         font-size: 2.3vw;
+         margin-top: -7vw;
+         padding-top: -13vw;
+       }
+       #emails{
+         font-size: 4vw;
+       }
+       #confirm_emails{
+         font-size: 4vw;
+       }
+       
+       .club{
+         padding-top: 25vw;
+       }
+       .main{
+         display: inline-block;
+       }
+       .product-list p{
+         font-size: 10vw;
+       }
+       .class{margin-top: 2vw;}
+       .product-list h3{
+         font-size: 5vw;
+       }
+       .button{
+         font-size: 4vw;
+         height: 5vw;
+       }
+       .small{
+         font-size:4vw;
+       }
+       .product-item{
+         width: 60vw;
+         align-items: center;
+         margin-left: 13vw;
+       }
+      
+       .main2{
+         display: inline-block;
+         
+       }
+       .main3{
+         display: inline-block;
+         margin-left: 0.1vw;
+       }
+       .main4{
+         display: inline-block;
+         margin-left: -6vw;
+       }
+       .footer{
+         height: 400px;
+      }
+   
+      .logo_footer {
+         margin-top: -20px;
+         margin-left: 190px;
+      }
+   
+      .column_1_footer {
+         margin-left: -400px;
+         margin-right: 45px;
+         margin-top: 80px;
+      }
+   
+      .column_2_footer {
+       margin-left: 230px;
+         margin-top: 80px;
+       
+      }
+   
+      .column_3_footer {
+       text-align: center;
+         margin-top:50px;
+         margin-left: 120px;
+      }
+   
+      .copyright_footer {
+         margin-left: 150px;
+         margin-top: 295px;
+      }
+         /*REGISTRATON*/
+      .popup-content {
+         width: 400px;
+         margin-top: -60px;
+      }
+   
+      #username {
+         margin-left: 90px;
+      }
+   
+      #password {
+         margin-left: 90px;
+      }
+     .hoodie{
+       margin-left: -10vw;
+       margin-top: -2vw;
+     }
+     .gmail{
+       margin-left: -20vw;
+     } 
+      }

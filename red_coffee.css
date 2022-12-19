@@ -8,6 +8,7 @@ body{
      color: #333;
      line-height: 1.6;
      margin: 0;
+     overflow-x: hidden;
 }
 *,
 *:before,
@@ -117,10 +118,14 @@ h1,h2,h3,h4,h5,h6{
  }
  
  .column_3_footer {
+   position: relative;
+   left: -50px;
    font-family: 'Roboto', sans-serif;
    font-size: 15px;
    color: whitesmoke;
-    margin-left: 1.856515373352855vw;
+    /* margin-left: 1.856515373352855vw; */
+    
+
  }
  
  .column_3_div12{

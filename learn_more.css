@@ -49,17 +49,16 @@ h1,h2,h3,h4,h5,h6{
       justify-content: center;
       width: 100%;
       height: 100vh;
-      background-color: red;
-      background-image: url(front/ss.jpg) center no-repeat;
-      animation: eye 20s infinite;
+      background-image: url(ph.jpg) center no-repeat;
+      animation: eye 30s infinite;
       animation-iteration-count: infinite linear;
       -webkit-background-size:cover ;
         background-size: cover;
    }
    @keyframes eye{
-      20%{background-image: url(front/koo.jpg);}
-      45%{background-image: url(front/ss.jpg);}
-       65%{background-image: url(front/ph.jpeg);}
+      20%{background-image: url(koo.jpg);}
+      45%{background-image: url(ss.jpg);}
+       65%{background-image: url(ph.jpeg);}
    }
    .intro_inner{
       width: 100%;
@@ -248,18 +247,452 @@ h1,h2,h3,h4,h5,h6{
     margin-left: 20vw;
     width: 20vw;
   }
-  .photo{
-    width:20vw;
+ .class{
+  padding-left: 45vw;
+  color: white;
+  text-align: center;
+  margin-top: -6vw;
+  font-size: 1.5vw;
+}
+.test{
+  padding-top: 10vw;
+  color: white;
+  font-size: 1.2vw;
+  text-align: center;
+}
+.bord{
+  border: 0.01vw solid grey;
+  margin-left: 47vw;
+  margin-right: 47vw;
+}
+.say{
+  color: rgb(255,215,0);
+  font-size: 3vw;
+  text-align: center;
+}
+.very{
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+}
+.nur{
+  text-align: center;
+  color: rgb(233, 177, 45);
+}
+.cost{
+  text-align: center;
+  color: grey;
+}
+.footer {
+  height: 330px;
+  /* background-color: #25292C; */
+  display: flex;
+  color: white;
+  padding-top: 80px;
+  /* background-color: #1A1A1A; */
+  background-color: #221E22;
+  border-top: 1px dashed gold;
+}
+
+.logo_footer {
+  margin-left: 100px;
+  margin-right: 170px;
+  display: flex;
+  margin-top: 37px;
+}
+
+.logo_image_footer {
+  margin-right: 0px;
+  cursor: pointer;
+   margin-top: -30px;
+}
+
+.logo_text_footer {
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.logo_footer h1 {
+  font-size: 20px;
+  font-family: 'Abril Fatface', display;
+  cursor: pointer;
+  /* color: wheat; */
+  color: #F0F0F0;
+}
+
+.logo_footer p {
+  font-size: 10px;
+  margin-top: -6px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  color: #A1A1A1;
+  cursor: pointer;
+}
+
+.column_1_footer {
+  margin-right: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  /* color: wheat; */
+  color: #F0F0F0;
+  transition: 0.5s all;
+   margin-left: 50px;
+}
+
+.column_1_footer div:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  /* color: #FC653E; */
+  color: #e29f01;
+}
+
+.column_2_footer {
+  margin-right: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  /* color: wheat; */
+  color: #F0F0F0;
+   margin-left: 7.320644216691069vw;
+}
+
+.column_2_footer div:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  /* color: #FC653E; */
+  color: #e29f01;
+}
+
+#darme_footer:hover {
+  /* color: wheat; */
+  color: #F0F0F0;
+}
+
+.column_3_footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: whitesmoke;
+   margin-left: 1.856515373352855vw;
+}
+
+.column_3_div12{
+  color: #00AEEF;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.copyright_footer {
+  color: #ADADAD;
+  position: absolute;
+  text-decoration: none;
+  margin-top: 225px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-left: 560px;
+}
+.zaq{
+  padding-top: 12vw;
+    display: flex;
+}
+.cucu{
+  margin-left: 13vw;
+    width: 20vw;
+}
+.develo{
+  color: rgb(226,159,1);
+  font-size: 5vw;
+  padding-top:3vw;
+  padding-left: 27vw;
+}
+@media(max-width:667px){
+  .nike{
+    font-size: 4vw;
+    color: rgba(255, 255, 255, 0.404);
     
-    margin-left: 12vw;
+    text-align: center;
   }
-  .best{
-    color: rgb(226,159,1);
+  .adidas{
+    padding-top: 5vw;
+    font-size: 3.1vw;
+    margin-left: 2vw;
+    color: wheat;
+    margin-right: 2vw;
+  }
+  .puma{
+    display: inline-block;
+  }
+  .suret{
+    font-weight: bold;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+    margin-left: 15vw;
+    width: 50vw;
+  }
+  .touch{
     font-size: 5vw;
-    margin-left: 20vw;
-    margin-top: -5vw;
+    margin-left: -72vw;
+  }
+  .idea{
+    text-align: center;
+    padding-top: 15vw;
+    font-size: 3.5vw;
+    margin-left: -40vw;
+  }
+  .developed{
+    display: inline-block;
+  }
+  .img{
+    margin-top: 5vw;
+    width: 30vw;
+    margin-bottom: 20vw;
+    margin-left: -6vw;
+  }
+  .devel{
+    
+    margin-bottom: -60vw;
+    margin-left: -14vw;
+    font-size: 6vw;
+  }
+  .current{
+    text-align: center;
+    margin-right: -33vw;
+    padding-top: 15vw;
+    font-size: 2.9vw;
+  }
+  .zaq{
+    display: block;
   }
   
-  .were{
-    font-size: 7vw;
+  .cucu{
+    margin-top: 5vw;
+    width: 30vw;
+    margin-bottom: 25vw;
+    margin-left: 35vw;
   }
+  .develo{
+    text-align: center;
+    padding-top: 65vw;
+    margin-left: -87vw;
+  }
+  .class{
+    text-align: center;
+    margin-left: -45vw;
+    padding-top: 15vw;
+    font-size: 2.9vw;
+  }
+  .test{
+    font-size: 3vw;
+    color: #00AEEF;
+  }
+  .say{
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  .very{
+    font-size: 3vw;
+    text-align: center;
+  }
+  .cost{
+    margin-top: -2vw;
+  }
+   /*FOOTER*/
+   .footer {
+     height: 400px;
+   }
+ 
+   .logo_footer {
+     margin-top: -20px;
+     margin-left: 190px;
+   }
+ 
+   .column_1_footer {
+		margin-left: -450px;
+		margin-right: 45px;
+		margin-top: 80px;
+	}
+
+	.column_2_footer {
+		margin-top: 80px;
+    margin-left: 40px;
+	}
+
+	.column_3_footer {
+		margin-top: 80px;
+		margin-left: -140px;
+	}
+ 
+   .copyright_footer {
+     margin-left: 150px;
+     margin-top: 295px;
+   }
+ 
+   /*REGISTRATON*/
+   .popup-content {
+     width: 400px;
+     margin-top: -60px;
+   }
+ 
+   #username {
+     margin-left: 90px;
+   }
+ 
+   #password {
+     margin-left: 90px;
+   }
+  .hoodie{
+    margin-left: -30vw;
+    margin-top: -2vw;
+  }
+  .gmail{
+    margin-left: -10vw;
+  }
+}   
+@media screen and (min-width:667px) and (max-width:1024px){
+  .nike{
+    font-size: 4vw;
+    color: rgba(255, 255, 255, 0.404);
+    
+    text-align: center;
+  }
+  .adidas{
+    padding-top: 5vw;
+    font-size: 3.1vw;
+    margin-left: 2vw;
+    color: wheat;
+    margin-right: 2vw;
+  }
+  .puma{
+    display: inline-block;
+  }
+  .suret{
+    font-weight: bold;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+    margin-left: 15vw;
+    width: 50vw;
+  }
+  .touch{
+    font-size: 5vw;
+    margin-left: -72vw;
+  }
+  .idea{
+    text-align: center;
+    padding-top: 15vw;
+    font-size: 3.5vw;
+    margin-left: -40vw;
+  }
+  .developed{
+    display: inline-block;
+  }
+  .img{
+    margin-top: 5vw;
+    width: 30vw;
+    margin-bottom: 20vw;
+    margin-left: -6vw;
+  }
+  .devel{
+    
+    margin-bottom: -60vw;
+    margin-left: -14vw;
+    font-size: 6vw;
+  }
+  .current{
+    text-align: center;
+    margin-right: -33vw;
+    padding-top: 15vw;
+    font-size: 2.9vw;
+  }
+  .zaq{
+    display: block;
+  }
+  
+  .cucu{
+    margin-top: 5vw;
+    width: 30vw;
+    margin-bottom: 25vw;
+    margin-left: 35vw;
+  }
+  .develo{
+    text-align: center;
+    padding-top: 65vw;
+    margin-left: -87vw;
+  }
+  .class{
+    text-align: center;
+    margin-left: -45vw;
+    padding-top: 15vw;
+    font-size: 2.9vw;
+  }
+  .test{
+    font-size: 3vw;
+    color: #00AEEF;
+  }
+  .say{
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  .very{
+    font-size: 3vw;
+    text-align: center;
+  }
+  .cost{
+    margin-top: -2vw;
+  }
+  .footer{
+		height: 400px;
+	}
+
+	.logo_footer {
+		margin-top: -20px;
+		margin-left: 190px;
+	}
+
+	.column_1_footer {
+		margin-left: -370px;
+		margin-right: 45px;
+		margin-top: 80px;
+	}
+
+	.column_2_footer {
+    margin-left: 200px;
+		margin-top: 80px;
+    
+	}
+
+	.column_3_footer {
+    text-align: center;
+		margin-top:0px;
+		margin-left: 120px;
+	}
+
+	.copyright_footer {
+		margin-left: 150px;
+		margin-top: 295px;
+	}
+
+	/*REGISTRATON*/
+	.popup-content {
+		width: 400px;
+		margin-top: -60px;
+	}
+
+	#username {
+		margin-left: 90px;
+	}
+
+	#password {
+		margin-left: 90px;
+	}
+  .hoodie{
+    margin-left: -10vw;
+    margin-top: -2vw;
+  }
+  .gmail{
+    margin-left: -10vw;
+  } 
+}                                                                                                                                                                                                                                                                                                                                                                                             

@@ -530,18 +530,20 @@ body{
 	 .nav{
 		display: block;
 		text-align: center;
-		padding-top: 10px;
-		font-size: 20px;
+		padding-bottom: 220px;
+		padding-top: 80px;
+		font-size: 50px;
 	 }
 	 #toggle:checked + .container{
 		display: none;
 	 } 
-	 .header_logo{
-		display: none;
-	 }
 	 .header{
 		background-color: #e29f01;
+		opacity: 0.9;
 	 }
+	 .header_logo{
+		display: none;
+	 } 
 }
 
 
@@ -665,5 +667,8 @@ body{
   
 	 #password {
 		 margin-left: 90px;
+	 }
+	 .container{
+		display: none;
 	 }
  }

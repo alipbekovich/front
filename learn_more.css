@@ -468,10 +468,7 @@ h1,h2,h3,h4,h5,h6{
   .zaq{
     display: block;
   }
-  .class{
-    padding-top: 30vw;
-    padding-bottom: 50vw;
-  }
+  
   .cucu{
     margin-top: 5vw;
     width: 30vw;
@@ -481,6 +478,28 @@ h1,h2,h3,h4,h5,h6{
   .develo{
     text-align: center;
     padding-top: 65vw;
-    margin-left: -80vw;
+    margin-left: -87vw;
   }
+  .class{
+    text-align: center;
+    margin-left: -45vw;
+    padding-top: 15vw;
+    font-size: 2.9vw;
+  }
+  .test{
+    font-size: 3vw;
+    color: #00AEEF;
+  }
+  .say{
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  .very{
+    font-size: 3vw;
+    text-align: center;
+  }
+  .cost{
+    margin-top: -2vw;
+  }
+  
 }                                                                                                                                                                                                     

@@ -494,15 +494,29 @@ font-size: 0.9516837481698389vw;
    .nav{
       margin-left: 38vw;
    }
-  
-   
-   .whym{
-      padding-bottom: 50vw;
-      padding-top: 40vw;
+   .where p {
+      font-size: 2vw;
+      text-align: left;
+      margin-left: -4vw;
    }
-  
-   .where{
-      padding-top: 40vw;
+   .whym p{
+    text-align:start;
+      font-size:2vw;
+   }
+   .sad{
+    margin-left: 20vw;  
+   }
+   .wc{
+      margin-left: 8vw;
+   }
+   .padd{
+      margin-right: 1vw;
+   }
+   .cf{
+      margin-left: 1vw;
+   }
+   .fc{
+      margin-right: 10vw;
    }
    #toggle{
       display: none;
@@ -639,6 +653,17 @@ font-size: 0.9516837481698389vw;
   } 
    }
    @media screen and (min-width:667px) and (max-width:1024px){
+      .price__currency{
+
+         font-size: 3vw;
+      }
+      
+      
+      .nav{
+         padding-top: 3vw;
+         margin-left: 35vw;
+         padding-bottom: 1.1vw;
+      }
       .coffee p{
          margin-left: -18vw;
          font-size:4vw;
@@ -658,8 +683,9 @@ font-size: 0.9516837481698389vw;
        font-size:4vw ;
        }
        .nav_link{
-         margin-left: -2vw;
-         font-size: 2.3vw;
+         margin-left: 4vw;
+         font-size: 1.5vw;
+         
          margin-top: -7vw;
          padding-top: -13vw;
        }
@@ -672,18 +698,34 @@ font-size: 0.9516837481698389vw;
        
        .club{
          padding-top: 25vw;
+         margin-left: 25vw;
        }
+       
        .main{
          display: inline-block;
        }
        .product-list p{
          font-size: 10vw;
        }
+       .h4{
+         font-size: 3vw;
+       }
+      .h5{
+         font-size: 3vw;
+      }
+      .total-price{
+         font-size: 3vw;
+      }
+      .rouble{
+         font-size: 3vw;
+      }
+       .delivery-cost{font-size: 3vw;}
        .class{margin-top: 2vw;}
        .product-list h3{
          font-size: 5vw;
        }
        .button{
+         padding-top: 1.5vw;
          font-size: 4vw;
          height: 5vw;
        }
@@ -702,7 +744,7 @@ font-size: 0.9516837481698389vw;
        }
        .main3{
          display: inline-block;
-         margin-left: 0.1vw;
+         margin-left: -3vw;
        }
        .main4{
          display: inline-block;
@@ -759,4 +801,7 @@ font-size: 0.9516837481698389vw;
      .gmail{
        margin-left: -20vw;
      } 
+     .btn{
+      font-size: 2vw;
+     }
       }

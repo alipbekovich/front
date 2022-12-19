@@ -489,7 +489,20 @@ font-size: 0.9516837481698389vw;
  }
  
 
- @media screen and(max-width:667px){
+ @media(max-width:667px){
+   .nav{
+      margin-left: 38vw;
+   }
+  
+   
+   .whym{
+      padding-bottom: 50vw;
+      padding-top: 40vw;
+   }
+  
+   .where{
+      padding-top: 40vw;
+   }
    #toggle{
       display: none;
    }
@@ -551,6 +564,9 @@ font-size: 0.9516837481698389vw;
     .small{
       font-size:4vw;
     }
+    .light{
+      font-size: 4vw;
+    }
     .product-item{
       width: 60vw;
       align-items: center;
@@ -563,11 +579,11 @@ font-size: 0.9516837481698389vw;
     }
     .main3{
       display: inline-block;
-      margin-left: -25vw;
+      margin-left: -6vw;
     }
     .main4{
       display: inline-block;
-      margin-left: -6vw;
+      margin-left: -12vw;
     }
     .footer{
 		height: 400px;
@@ -621,7 +637,7 @@ font-size: 0.9516837481698389vw;
     margin-left: -20vw;
   } 
    }
-   @media(max-width:1024px){
+   @media screen and (min-width:667px) and (max-width:1024px){
       .coffee p{
          margin-left: -18vw;
          font-size:4vw;

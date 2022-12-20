@@ -510,7 +510,7 @@ font-size: 0.9516837481698389vw;
 	 .nav{
 		display: block;
 		text-align: center;
-		padding-bottom: 220px;
+		padding-bottom: 180px;
 		padding-top: 80px;
 		font-size: 50px;
 	 }
@@ -571,10 +571,11 @@ font-size: 0.9516837481698389vw;
     font-size:4vw ;
     }
     .nav_link{
+      padding: 3vw;
       margin-left: -2vw;
-      font-size: 15vw;
+      font-size: 12vw;
       margin-top: -7vw;
-      padding-top: -13vw;
+      padding-top: -10vw;
     }
     #emails{
       font-size: 4vw;
@@ -672,6 +673,10 @@ font-size: 0.9516837481698389vw;
   .gmail{
     margin-left: -20vw;
   } 
+  .btn{
+   font-size: 3vw;
+  }
+  
    }
    @media screen and (min-width:667px) and (max-width:1024px){
       .price__currency{
@@ -718,9 +723,10 @@ font-size: 0.9516837481698389vw;
        font-size:4vw ;
        }
        .nav_link{
+         padding: 2vw;
          margin-left: 4vw;
          margin-top: -7vw;
-         font-size: 15vw;
+         font-size: 11vw;
          padding-top: -13vw;
        }
        #emails{

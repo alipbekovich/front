@@ -372,8 +372,8 @@ h1,h2,h3,h4,h5,h6{
 	}
 
 	.copyright_footer {
-		margin-left: 150px;
-		margin-top: 295px;
+		margin-left: 40px;
+		margin-top: 285px;
 	}
     .togglesss{
 		display: block;
@@ -396,4 +396,35 @@ h1,h2,h3,h4,h5,h6{
 	 .header_logo{
 		display: none;
 	 } 
+}
+
+
+@media screen and (min-width:667px) and (max-width:1024px){
+    .togglesss{
+		display: block;
+		cursor: pointer;
+	 }
+	 .nav{
+		display: block;
+		text-align: center;
+		padding-bottom: 100px;
+		font-size: 120px;
+	 }
+	 #toggle:checked + .container{
+		display: none;
+	 } 
+	 .header{
+		background-color:darkgrey;
+		opacity: 0.9;
+	 }
+	 .header_logo{
+		display: none;
+	 } 
+     .container{
+        display: inline-flex;
+     }
+     .copyright_footer {
+		margin-left: 400px;
+		margin-top: 220px;
+	}
 }

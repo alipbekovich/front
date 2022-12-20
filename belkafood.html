@@ -4,310 +4,404 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
     <link rel="stylesheet" href="belkafood.css">
     <title>SDUshop</title>
+
 </head>
-<body style="margin: 0;">
-<!-- 
-  <header class="header">
-    <div class="container">
-        <div class="header_inner">
-            <div class="header_logo">SDU</div>
-          <nav class="nav">
-            <a class="nav_link" href="shop.html">Home</a>
-            <a class="nav_link" href="#">SERVICE</a>
-            <a  class="nav_link" href="#">WORK</a>
-            <a  class="nav_link" href="#">MORE</a>
-            <a  class="nav_link" href="contacts.html">CONTACTS</a>
-          </nav>    
-        </div>
-    </div>
-</header>-->
-
-
+<body>
+ 
 <header class="header">
+  <div class="navs">
+    <label class="togglesss" for="toggle">&#9776;</label>
+  </div>
+  <input type="checkbox" name="" id="toggle">
   <div class="container">
       <div class="header_inner">
           <div class="header_logo">SDUshop</div>
         <nav class="nav">
-          <a class="nav_link" href="#">HOME</a>
+          <a class="nav_link" href="Home.html">Home</a>
           <div class="dropdown">
-              <a class="nav_link">SERVICES</a>
-              <div class="dropdown-content">
-                <a href="sdustore.html">SDU STORE</a>
-                <a href="red_coffee.html">RED COFFEE</a>
-                <a href="belkafood.html">BELKA FOOD</a>
-              </div>
+            <a class="nav_link">SERVICES</a>
+            <div class="dropdown-content">
+              <a href="sdustore.html">SDU STORE</a>
+              <a href="red_coffee.html">RED COFFEE</a>
+              <a href="belkafood.html">BELKA FOOD</a>
             </div>
-          <a  class="nav_link" href="./AboutUs.html">ABOUT US</a>
-          <a  class="nav_link" href="./contacts.html">MORE</a>
-          <a  class="nav_link" href="./learn_more.html">CONTACTS</a>
-        
+          </div>
+          <a  class="nav_link" href="AboutUs.html">About Us</a>
+          <a  class="nav_link" href="learn_more.html">MORE</a>
+          <a  class="nav_link" href="contacts.html">CONTACTS</a>
         </nav>    
       </div>
   </div>
 </header>
-
-
-
- <div class="intro">
-  <!-- <p class="aligncenter"> -->
- <img src="belka.JPG" alt="" width="1200px" height="700px">
-</div> 
-
+<div class="intro">
+  <img src="belka.JPG" alt="" class="imgintro" width="1200" height="700">
+  </div>
   
-  
-
-<div class="animates">   
-    <div class="main">
-    <div class="product-item">
-        <div class="product-port" data-id="01">
-        <img class="product-img" src="img/pizza.jpg">
-        <div class="product-list">
-          <h3 class="item-title">Пицца</h3>
-            <span class="price__currency"> 2000 tg</span>
-            <div class="colss">
-                <button data-action="minus">-</button>&nbsp; <div class="kol" data-counter>1</div>&nbsp; <button data-action="plus">+</button>
-            </div>
-            <a data-cart  class="button">В корзину</a>
-        </div>
-      </div> 
-    </div>
-
-      <div class="product-item">
-        <div class="product-port" data-id="02" >
-            <img class="product-img" src="img/chicken.jpg">
-            <div class="product-list">
-              <h3 class="item-title">Чикен</h3>
-                <span class="price__currency"> 1700 tg</span>
-                <div class="colss">
-                    <button data-action="minus">-</button>&nbsp; <div data-counter>1</div>&nbsp; <button data-action="plus">+</button>
-                </div>
-                <a data-cart  class="button">В корзину</a>
-            </div>
-      </div> 
-    </div>
-
-
-
-
- <div class="product-item">
-        <div class="product-port" data-id="03">
-        <img class="product-img" src="img/doner.jpg">
-        <div class="product-list">
-          <h3 class="item-title">Донер</h3>
-            <span class="price__currency"> 1200 tg</span>
-            <div class="colss">
-                <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
-            </div>
-            <a data-cart  class="button">В корзину</a>
-        </div>
-      </div> 
-    </div>
-
-    
-
-        <!-- Корзина -->
+      
         
-          
-          
         
-        <div class="cardsss">
+        <div class="animates">   
+            <div class="main">
             <div class="product-item">
-                <h5 class="card-title">Ваш заказ</h4>
-                <div data-cart-empty class="Pusto" id="pusto">
-                    Корзина пуста
+                <div class="product-port" data-id="01">
+                <img class="product-img" src="img/pizza.jpg">
+                <div class="product-list">
+                  <h3 class="item-title">Pizza</h3>
+                    <span class="price__currency">2000 tg</span>
+                    <div class="colss">
+                        <button data-action="minus">-</button>&nbsp; <div class="kol" data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                    </div>
+                    <a data-cart  class="button">В корзину</a>
                 </div>
-                <!-- cart-wrapper -->
-                <div class="cart-wrapper">
-
-                    <!-- Cart item -->
-                    
-                    <!-- // Cart item -->
-                    
-                </div>
-              
-                <!-- // cart-wrapper -->
-
-                <!-- Стоимость заказа -->
-                <div style="text-align: left;" class="cart-total" ></br>
-                    <p data-card-delivery><span class="h4">Доставка:</span> <span class="delivery-cost">бесплатно</span> </p>
-                    <p class="small">Доставка бесплатно при покупке к сумме 3000 tg</p>
-                    <p><span class="h5">Итого:</span> <span class="total-price">0</span> <span class="rouble">tg</span></p>
-                </div>
-                <!-- // Стоимость заказа -->
-
-
-            <!-- Оформить заказ -->
-            <div id="order-form" class="card-body">
-                <h5 class="card-title">Оформить заказ</h4>
-                <form>
-                  <div class="form__input-group">
-                    <input type="email" name="email" id="emails" placeholder="Email" required>
-                    <input type="email" name="email" id="confirm_emails" placeholder="Confirm Email" required>  
-                    <div class="form__input-error-message"></div>
-                </div>
-                <span id="wrong_pass_alert"></span>
-                    <button type="submit" class="btn" id="btnSubmit">Заказать</button>
-                </form>
+              </div> 
             </div>
-            <!-- // Оформить заказ -->
-
-        </div>
-        <!-- // Корзина -->
-    </div>
-
-    </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="animates">
-<div class="main2">
-
-<div class="product-item">
-<div class="product-port" data-id="04">
-    <img class="product-img" src="img/latte.jpg">
-    <div class="product-list">
-      <h3 class="item-title">Латте</h3>
-        <span class="price__currency"> 1250 tg</span>
-        <div class="colss">
-            <button data-action="minus">-</button>&nbsp; <div class="kol" data-counter>1</div>&nbsp; <button data-action="plus">+</button>
-        </div>
-        <a data-cart  class="button">В корзину</a>
-    </div>
-  </div> 
-</div>
-
-  <div class="product-item">
-    <div class="product-port" data-id="05" >
-        <img class="product-img" src="img/burger.jpg">
-        <div class="product-list">
-          <h3 class="item-title">Бургер</h3>
-            <span class="price__currency"> 1300 tg</span>
-            <div class="colss">
-                <button data-action="minus">-</button>&nbsp; <div data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+        <br>
+              <div class="product-item">
+                <div class="product-port" data-id="02" >
+                    <img class="product-img" src="https://static.tildacdn.com/tild3934-6161-4636-a630-633662643261/photo.jpg">
+                    <div class="product-list">
+                      <h3 class="item-title">Chicken</h3>
+                        <span class="price__currency"> 1700 tg</span>
+                        <div class="colss">
+                            <button data-action="minus">-</button>&nbsp; <div data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                        </div>
+                        <a data-cart  class="button">В корзину</a>
+                    </div>
+              </div> 
             </div>
-            <a data-cart  class="button">В корзину</a>
-        </div>
-  </div> 
-</div>
-
-
-
-
-<div class="product-item">
-    <div class="product-port" data-id="06">
-    <img class="product-img" src="img/limonade.jpg">
-    <div class="product-list">
-      <h3 class="item-title">Лимонад</h3>
-        <span class="price__currency"> 600 tg</span>
-        <div class="colss">
-            <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
-        </div>
-        <a data-cart  class="button">В корзину</a>
-    </div>
-  </div> 
-</div>
-
-
-<div class="product-item">
-  <div class="product-port" data-id="07">
-      <img class="product-img" src="img/free.jpg">
-      <div class="product-list">
-        <h3 class="item-title">Фри</h3>
-          <span class="price__currency"> 550 tg</span>
-          <div class="colss">
-              <button data-action="minus">-</button>&nbsp; <div class="kol" data-counter>1</div>&nbsp; <button data-action="plus">+</button>
-          </div>
-          <a data-cart  class="button">В корзину</a>
-      </div>
-    </div> 
-  </div>
-
-</div>
-
         
-          
-
-<div class="animates">
-<div class="main3">
-    
-    
-      <div class="product-item">
-        <div class="product-port" data-id="08" >
-            <img class="product-img" src="img/lahm.jpg">
+        
+        
+        <br>
+         <div class="product-item">
+                <div class="product-port" data-id="03">
+                <img class="product-img" src="https://sam.banketprofi.ru/i/7701-донер-кебаб/foto-zala-Restorany-Doner-Kebab--Krasnodara.jpg">
+                <div class="product-list">
+                  <h3 class="item-title">Doner</h3>
+                    <span class="price__currency"> 1200 tg</span>
+                    <div class="colss">
+                        <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                    </div>
+                    <a data-cart  class="button">В корзину</a>
+                </div>
+              </div> 
+            </div>
+        
+            
+        
+                <!-- Корзина -->
+                
+                  <br>
+                  
+                
+                <div class="cardsss">
+                    <div class="product-item">
+                        <h5 class="card-title">Ваш заказ</h4>
+                        <div data-cart-empty class="Pusto" id="pusto">
+                            Корзина пуста
+                        </div>
+                        <!-- cart-wrapper -->
+                        <div class="cart-wrapper">
+        
+                            <!-- Cart item -->
+                            
+                            <!-- // Cart item -->
+                            
+                        </div>
+                      
+                        <!-- // cart-wrapper -->
+        
+                        <!-- Стоимость заказа -->
+                        <div style="text-align: left;" class="cart-total" ></br>
+                            <p data-card-delivery><span class="h4">Доставка:</span> <span class="delivery-cost">бесплатно</span> </p>
+                            <p class="small">Доставка бесплатно при покупке к сумме 2000 tg</p>
+                            <p><span class="h5">Итого:</span> <span class="total-price">0</span> <span class="rouble">tg</span></p>
+                        </div>
+                        <!-- // Стоимость заказа -->
+        
+        
+                    <!-- Оформить заказ -->
+                    <div id="order-form" class="card-body">
+                        <h5 class="card-title">Оформить заказ</h4>
+                        <form>
+                          <div class="form__input-group">
+                            <input type="email" name="email" id="emails" placeholder="Email" required>
+                            <input type="email" name="email" id="confirm_emails" placeholder="Confirm Email" required>  
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <span id="wrong_pass_alert"></span>
+                            <button type="submit" class="btn" id="btnSubmit">Заказать</button>
+                        </form>
+                    </div>
+                    <!-- // Оформить заказ -->
+        
+                </div>
+                <!-- // Корзина -->
+            </div>
+        
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="animates">
+        <div class="main2">
+        <br>
+        <div class="product-item">
+        <div class="product-port" data-id="04">
+            <img class="product-img" src="https://avatars.mds.yandex.net/get-altay/5101995/2a00000182266b04e0e5e54d0fe46e218af3/XXL" id="imgs-4">
             <div class="product-list">
-              <h3 class="item-title">Лахмаджун</h3>
-                <span class="price__currency"> 800 tg</span>
+              <h3 class="item-title">Latte</h3>
+                <span class="price__currency"> 1100 tg</span>
                 <div class="colss">
-                    <button data-action="minus">-</button>&nbsp; <div data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                    <button data-action="minus">-</button>&nbsp; <div class="kol" data-counter>1</div>&nbsp; <button data-action="plus">+</button>
                 </div>
                 <a data-cart  class="button">В корзину</a>
             </div>
-      </div> 
-    </div>
-    
-    
-    
-    
-    <div class="product-item">
-        <div class="product-port" data-id="09">
-        <img class="product-img" src="img/kombo.jpg">
-        <div class="product-list">
-          <h3 class="item-title">Комбо</h3>
-            <span class="price__currency"> 2400 tg</span>
-            <div class="colss">
-                <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+          </div> 
+        </div>
+        <br>
+          <div class="product-item">
+            <div class="product-port" data-id="05" >
+                <img class="product-img" src="https://world.openfoodfacts.org/images/products/505/478/112/8878/front_en.3.full.jpg">
+                <div class="product-list">
+                  <h3 class="item-title">Burger</h3>
+                    <span class="price__currency"> 1300 tg</span>
+                    <div class="colss">
+                        <button data-action="minus">-</button>&nbsp; <div data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                    </div>
+                    <a data-cart  class="button">В корзину</a>
+                </div>
+          </div> 
+        </div>
+        
+        <br>
+        
+        
+        <div class="product-item">
+            <div class="product-port" data-id="06">
+            <img class="product-img" src="img/limonade.jpg">
+            <div class="product-list">
+              <h3 class="item-title">Limonade</h3>
+                <span class="price__currency"> 600 tg</span>
+                <div class="colss">
+                    <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                </div>
+                <a data-cart  class="button">В корзину</a>
             </div>
-            <a data-cart  class="button">В корзину</a>
+          </div> 
         </div>
-      </div> 
-    </div>
-
-    <div class="product-item">
-      <div class="product-port" data-id="10">
-      <img class="product-img" src="img/onion.jpg">
-      <div class="product-list">
-        <h3 class="item-title">Комбо 2</h3>
-          <span class="price__currency"> 1400 tg</span>
-          <div class="colss">
-              <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+        
+        <br>
+        <div class="product-item">
+          <div class="product-port" data-id="07">
+              <img class="product-img" src="img/free.jpg">
+              <div class="product-list">
+                <h3 class="item-title">Free</h3>
+                  <span class="price__currency"> 550 tg</span>
+                  <div class="colss">
+                      <button data-action="minus">-</button>&nbsp; <div class="kol" data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                  </div>
+                  <a data-cart  class="button">В корзину</a>
+              </div>
+            </div> 
           </div>
-          <a data-cart  class="button">В корзину</a>
-      </div>
-    </div> 
-  </div>
-
-
-  <div class="product-item">
-    <div class="product-port" data-id="11">
-    <img class="product-img" src="img/donuts.jpg">
-    <div class="product-list">
-      <h3 class="item-title">Пончики</h3>
-        <span class="price__currency"> 900 tg</span>
-        <div class="colss">
-            <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+        
         </div>
-        <a data-cart  class="button">В корзину</a>
-    </div>
-  </div> 
-</div>
-    
+        
+                
+                  
+        
+        <div class="animates">
+        <div class="main3">
+           <br> 
+            
+              <div class="product-item">
+                <div class="product-port" data-id="08" >
+                    <img class="product-img" src="img/lahm.jpg">
+                    <div class="product-list">
+                      <h3 class="item-title">Lahmandzhun</h3>
+                        <span class="price__currency"> 800 tg</span>
+                        <div class="colss">
+                            <button data-action="minus">-</button>&nbsp; <div data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                        </div>
+                        <a data-cart  class="button">В корзину</a>
+                    </div>
+              </div> 
+            </div>
+            
+            
+            
+            <br>
+            <div class="product-item">
+                <div class="product-port" data-id="09">
+                <img class="product-img" src="img/kombo.jpg">
+                <div class="product-list">
+                  <h3 class="item-title">Kombo</h3>
+                    <span class="price__currency"> 2400 tg</span>
+                    <div class="colss">
+                        <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                    </div>
+                    <a data-cart  class="button">В корзину</a>
+                </div>
+              </div> 
+            </div>
+        <br>
+            <div class="product-item">
+              <div class="product-port" data-id="10">
+              <img class="product-img" src="img/onion.jpg">
+              <div class="product-list">
+                <h3 class="item-title">Onion crispy</h3>
+                  <span class="price__currency"> 1400 tg</span>
+                  <div class="colss">
+                      <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                  </div>
+                  <a data-cart  class="button">В корзину</a>
+              </div>
+            </div> 
+          </div>
+        
+        <br>
+          <div class="product-item">
+            <div class="product-port" data-id="11">
+            <img class="product-img" src="https://o-tendencii.com/uploads/posts/2022-03/1646182213_76-o-tendencii-com-p-donat-ponchik-foto-76.jpg">
+            <div class="product-list">
+              <h3 class="item-title">Donuts</h3>
+                <span class="price__currency"> 890 tg</span>
+                <div class="colss">
+                    <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                </div>
+                <a data-cart  class="button">В корзину</a>
+            </div>
+          </div> 
+        </div>
+            
+              </div>
+        
+        
+        
+              <div class="animates">
+                <div class="main4">
+                    
+                    <br>
+                      <div class="product-item">
+                        <div class="product-port" data-id="12" >
+                            <img class="product-img" src="img/smothie.jpg">
+                            <div class="product-list">
+                              <h3 class="item-title">Smothie</h3>
+                                <span class="price__currency"> 1000 tg</span>
+                                <div class="colss">
+                                    <button data-action="minus">-</button>&nbsp; <div data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                                </div>
+                                <a data-cart  class="button">В корзину</a>
+                            </div>
+                      </div> 
+                    </div>
+                    
+                    <br>
+                    
+                    
+                    <div class="product-item">
+                        <div class="product-port" data-id="13">
+                        <img class="product-img" src="img/pastaa.jpeg">
+                        <div class="product-list">
+                          <h3 class="item-title">Pasto</h3>
+                            <span class="price__currency"> 2500 tg</span>
+                            <div class="colss">
+                                <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                            </div>
+                            <a data-cart  class="button">В корзину</a>
+                        </div>
+                      </div> 
+                    </div>
+                <br>
+                    <div class="product-item">
+                      <div class="product-port" data-id="14">
+                      <img class="product-img" src="https://avatars.mds.yandex.net/i?id=782ae9110dfae59d51365af7f43b6810-5250635-images-thumbs&n=13">
+                      <div class="product-list">
+                        <h3 class="item-title">Taco</h3>
+                          <span class="price__currency"> 1300 tg</span>
+                          <div class="colss">
+                              <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                          </div>
+                          <a data-cart  class="button">В корзину</a>
+                      </div>
+                    </div> 
+                  </div>
+                
+                <br>
+                  <div class="product-item">
+                    <div class="product-port" data-id="15">
+                    <img class="product-img" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2bf54b81428327.5cff8074c6997.jpg">
+                    <div class="product-list">
+                      <h3 class="item-title">Milhshake</h3>
+                        <span class="price__currency"> 1590 tg</span>
+                        <div class="colss">
+                            <button data-action="minus">-</button>&nbsp; <div  data-counter>1</div>&nbsp; <button data-action="plus">+</button>
+                        </div>
+                        <a data-cart  class="button">В корзину</a>
+                    </div>
+                  </div> 
+                </div>  
+                      </div>
+        
+          </div>
+        </div>
+         
+        
+        </div>
+        </div>
+        </div>
+        <div class="footer">
+          <div class="logo_footer">
+              <div class="logo_image_footer">
+              <a><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_of_Suleymen_Demirel_University%2C_Kazakhstan.png" alt="logo_image" width="100px"></a>
+          </div>
+          <!-- <div class="logo_text_footer">
+              <h1><a>DARME</a></h1>
+              <p><a>Better With Us</a></p>
+          </div> --> -->
+          </div>
+     
+          <div class="column_1_footer">
+              <a href="Home.html" style="text-decoration: none; color: #F0F0F0"><div>Home</div></a>
+              <a href="Electronics.html" style="text-decoration: none; color: #F0F0F0"><div>About us</div></a>
+              <a href="Mobile_Phones.html" style="text-decoration: none; color: #F0F0F0;"><div>More</div></a>
+              <a href="Laptops.html" style="text-decoration: none; color: #F0F0F0;"><div>Contacts</div></a>
+          </div>
+      
+          <div class="column_2_footer">
+              <div id="">SERVICES</div>
+              <a href="About_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>SDU store</div></a>
+              <a href="Contact_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>Belka Food</div></a>
+              <a href="Feedback.html" style="text-decoration: none; color: #F0F0F0;"><div>Red Coffee</div></a>
+          </div>
+      
+          <div class="column_3_footer">
+              <div class="column_3_div12">address</div>
+              <p>Almaty, Kazakhstan</p>
+              <div class="column_3_div12">phone</div>
+              <p>+7 775 456 43 05</p>
+              <div class="column_3_div12">email</div>
+              <p>nurai@gmail.com</p>
+          </div>
+      
+          <div class="copyright_footer">
+              <div>© 2022 SDUshop <a href="#" style="text-decoration: none;">Privacy Policy</a></div>
+          </div>
       </div>
-  </div>
-</div>
- 
-
-</div>
-</div>
-</div>
-    
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-      <script src="jss3/calCartPrice2.js"></script>  
-      <script src="jss3/toggleCartStatus2.js"></script>
-      <script src="jss3/counter2.js"></script>
-      <script src="jss3/cart.js"></script>
+   
+      </div>  
+              <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+              <script src="jss3/calCartPrice2.js"></script>  
+              <script src="jss3/toggleCartStatus2.js"></script>
+              <script src="jss3/counter2.js"></script>
+              <script src="jss3/cart2.js"></script>
 </body>
 </html>
+

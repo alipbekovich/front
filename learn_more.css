@@ -409,6 +409,17 @@ h1,h2,h3,h4,h5,h6{
   padding-top:3vw;
   padding-left: 27vw;
 }
+#toggle{
+	display: none;
+ }
+ .navs{
+	float: left;
+ }
+ .togglesss{
+	margin: 20px 0 0 20px;
+	font-size: 30px;
+	display: none;
+ }
 @media(max-width:667px){
   .header_inner{
     display: inline;
@@ -417,10 +428,11 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: -6vw;
   }
   .nav_link{
-    margin-left: -2vw;
-    font-size: 2.3vw;
-    margin-top: -7vw;
-    padding-top: -13vw;
+    padding: 3vw;
+    margin-left: -28vw;
+    font-size: 12vw;
+    margin-top: -10vw;
+    padding-top: 10vw;
   }
   .nike{
     font-size: 4vw;
@@ -563,8 +575,53 @@ h1,h2,h3,h4,h5,h6{
   .gmail{
     margin-left: -10vw;
   }
+  .togglesss{
+		display: block;
+		cursor: pointer;
+	 }.header{
+    background-color:blueviolet;
+      opacity: 0.9;
+    }
+	 .nav{
+		display: block;
+		text-align: center;
+		padding-bottom: 180px;
+		padding-top: 80px;
+		font-size: 50px;
+  
+	 }
+	 #toggle:checked + .container{
+		display: none;
+	 } 
+    .header_logo{
+      opacity: 0;
+    }
 }   
 @media screen and (min-width:667px) and (max-width:1024px){
+  .togglesss{
+		display: block;
+		cursor: pointer;
+	 }.header{
+    background-color:blueviolet;
+      opacity: 0.9;
+    }
+	 .nav{
+		display: block;
+		text-align: center;
+		padding-bottom: 180px;
+		padding-top: 80px;
+		font-size: 20px;
+    padding-right: 200px;
+  
+	 }
+	 #toggle:checked + .container{
+		display: none;
+	 } 
+    .header_logo{
+      opacity: 0;
+    }
+
+
   .header_inner{
     display: inline;
   }
@@ -572,9 +629,11 @@ h1,h2,h3,h4,h5,h6{
     padding-left: 3vw;
   }
   .nav_link{
-    font-size: 1.5vw;
-    margin-top: -3vw;
-    padding-top: -13vw;
+    padding: 3vw;
+    margin-left: -22vw;
+    font-size: 9vw;
+    margin-top: -10vw;
+    padding-top: 10vw;
   }
   .nike{
     font-size: 4vw;

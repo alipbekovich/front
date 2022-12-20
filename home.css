@@ -427,4 +427,46 @@ h1,h2,h3,h4,h5,h6{
 		margin-left: 400px;
 		margin-top: 220px;
 	}
+    .footer{
+        height: 400px;
+     }
+  
+     .logo_footer {
+        margin-top: -20px;
+        margin-left: 190px;
+     }
+  
+     .column_1_footer {
+        margin-left: -400px;
+        margin-right: 45px;
+        margin-top: 80px;
+     }
+  
+     .column_2_footer {
+      margin-left: 230px;
+        margin-top: 80px;
+      
+     }
+  
+     .column_3_footer {
+      text-align: center;
+     }
+  
+     .copyright_footer {
+        margin-left: 150px;
+        margin-top: 295px;
+     }
+        
+     .popup-content {
+        width: 400px;
+        margin-top: -60px;
+     }
+  
+     #username {
+        margin-left: 90px;
+     }
+  
+     #password {
+        margin-left: 90px;
+     }
 }

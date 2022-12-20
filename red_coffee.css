@@ -518,15 +518,9 @@ font-size: 0.9516837481698389vw;
    .fc{
       margin-right: 10vw;
    }
-   #toggle{
-      display: none;
-   }
+   
    .navs{
       float: left;
-   }
-   .togglesss{
-      margin: 20px 0 0 20px;
-      font-size: 30px;
    }
    .cont{
       display: inline-block;  

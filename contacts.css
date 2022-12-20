@@ -267,8 +267,8 @@ body{
    position: relative;
     padding: 40px 0;
     text-align: center;
-    bottom: 750px;
-    left: 300px;
+    bottom: 950px;
+    left: 320px;
  }
  
  .contar {
@@ -286,6 +286,17 @@ body{
  .contact-page{
     height: 200vh;
  }
+ #toggle{
+	display: none;
+ }
+ .navs{
+	float: left;
+ }
+ .togglesss{
+	margin: 20px 0 0 20px;
+	font-size: 30px;
+	display: none;
+ }
  @media only screen and (min-width:400px) and (max-width: 700px) {
    .kkoz{
        background-color: black;
@@ -301,13 +312,34 @@ body{
        width: 20px;
        height: 150px;
        margin-top: 120vh;
-       margin-left: -200px;
+       margin-left: -280px;
 
    }
    .serv{
        position: relative;
        top:-300px
    }
+   .togglesss{
+		display: block;
+		cursor: pointer;
+	 }
+	 .nav{
+		display: block;
+		text-align: center;
+		padding-bottom: 140px;
+		padding-top: 80px;
+		font-size: 50px;
+	 }
+	 #toggle:checked + .container{
+		display: none;
+	 } 
+	 .header{
+		background-color:black;
+		opacity: 0.9;
+	 }
+	 .header_logo{
+		display: none;
+	 } 
    
   
  
@@ -335,7 +367,7 @@ body{
    }
 
  } 
- @media only screen and (min-width: 880px) and (max-width:1024px) {
+ @media only screen and (min-width: 700px) and (max-width:1024px) {
   .forma{
      position: relative;
      bottom: 350px;
@@ -351,8 +383,30 @@ body{
      width: 600px;
      height: 600px;
      
-   
  }  
+ .togglesss{
+   display: block;
+   cursor: pointer;
+ }
+ .nav{
+   display: block;
+   text-align: center;
+   padding-bottom:500px;
+   font-size: 120px;
+ }
+ #toggle:checked + .container{
+   display: none;
+ } 
+ .header{
+   background-color:black;
+   opacity: 0.9;
+ }
+ .header_logo{
+   display: none;
+ } 
+  .container{
+     display: inline-flex;
+  }
  
 }
 @media  only screen and (min-width:1200px) {

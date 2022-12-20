@@ -743,6 +743,7 @@ font-size: 0.9516837481698389vw;
        
        .main{
          display: inline-block;
+         margin-left: 3vw;
        }
        .product-list p{
          font-size: 10vw;
@@ -780,15 +781,15 @@ font-size: 0.9516837481698389vw;
       
        .main2{
          display: inline-block;
+         margin-left: 3vw;
          
        }
        .main3{
          display: inline-block;
-         margin-left: -3vw;
        }
        .main4{
          display: inline-block;
-         margin-left: -6vw;
+         margin-left: -3vw;
        }
        .footer{
          height: 400px;

@@ -14,13 +14,13 @@ function calCartPrice() {
 
     })
 
-    totalPriceEl.innerText = totalPrice - 13780;
+    totalPriceEl.innerText = totalPrice-20330;
 
-    if(totalPrice >= 19780){
+    if(totalPrice >= 22330){
         deliveryCost.innerText = 'бесплатно';
     }else {
         deliveryCost.innerText = '2000 tg';
-        totalPriceEl.innerText = totalPrice - 11780;
+        totalPriceEl.innerText = totalPrice-18330;
     }
 
 

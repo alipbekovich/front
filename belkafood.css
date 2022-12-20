@@ -1,6 +1,4 @@
 
-
-
 .header{
    background-color: rgb(110, 47, 47);
  }
@@ -180,7 +178,7 @@ h1,h2,h3,h4,h5,h6{
    width: 95.1683748169839vw;
    height: auto;
 }
-.imgintro1{
+/* .imgintro1{
 width: 98.82869692532942vw;
 height: auto;
 }
@@ -188,7 +186,7 @@ height: auto;
    width: 98.82869692532942vw;
    height: auto;
    margin-top: -0.7320644216691069vw;
-   }
+   } */
 .header{
    padding-top: 15px;
    position: absolute;
@@ -443,7 +441,7 @@ font-size: 0.9516837481698389vw;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: whitesmoke;
-  margin-left: 1.856515373352855vw;
+  margin-left: 0.856515373352855vw;
 }
 
 .column_3_div12{
@@ -478,18 +476,10 @@ font-size: 0.9516837481698389vw;
   display: none;
 }
 @media (max-width: 700px) {
-   #emails{
-      font-size: 4vw;
-   }
-   #confirm_emails{
-      font-size: 4vw;
-   }
-   .btn{
-      font-size: 3vw;
-   }
-   .button{
-      padding-top: 1vw;
-   }
+  .button{padding-top: 1vw;}
+  #emails{font-size: 3vw;}
+  #confirm_emails{font-size: 3vw;}
+  .btn{font-size: 2vw;}
   .togglesss{
      display: block;
   }
@@ -505,15 +495,7 @@ font-size: 0.9516837481698389vw;
      width: 98.82869692532942vw;
      height: 20vh;
   }
-  .qr .spacing{
-     margin-left: 80px;
-  }
-  .qr .xxxx{
-  display: none;
-  }
-  .qr .colortext{
-     display: none;
-  }
+  
   /*FOOTER*/
   .footer {
      height: 400px;
@@ -535,7 +517,7 @@ font-size: 0.9516837481698389vw;
   }
 
   .column_3_footer {
-     margin-top: 80px;
+     margin-top: 40px;
      margin-left: -155px;
   }
 
@@ -648,180 +630,161 @@ font-size: 0.9516837481698389vw;
  }
 
   }
+  /* @media only screen and (min-width: 768px) {
+    .column_3_footer{
+      margin-left: -120px;
+    }
+  } */
 
-
-
-  @media screen and(min-width:700px) and (max-width: 1024px) {
-   #emails{
-      font-size: 4vw;
+  @media screen and (min-width:873) and (max-width:945){
+   .togglesss{
+      display: block;
    }
-   #confirm_emails{
-      font-size: 4vw;
+   .imgintro{
+      width: 95.1683748169839vw;
+      height: 100vh;
    }
-   .btn{
-      font-size: 3vw;
+   .imgintro1{
+      width: 98.82869692532942vw;
+      height: 20vh;
    }
-   .button{
-      padding-top: 1vw;
-   }
-  .togglesss{
-     display: block;
-  }
-  .imgintro{
-     width: 95.1683748169839vw;
-     height: 100vh;
-  }
-  .imgintro1{
-     width: 98.82869692532942vw;
-     height: 20vh;
-  }
-  .imgintro2{
-     width: 98.82869692532942vw;
-     height: 20vh;
-  }
-  .qr .spacing{
-     margin-left: 80px;
-  }
-  .qr .xxxx{
-  display: none;
-  }
-  .qr .colortext{
-     display: none;
-  }
-  /*FOOTER*/
-  .footer {
-     height: 400px;
-  }
-
-  .logo_footer {
-     margin-top: -20px;
-     margin-left: 190px;
-  }
-
-  .column_1_footer {
-     margin-left: -420px;
-     margin-right: 45px;
-     margin-top: 80px;
-  }
-
-  .column_2_footer {
-     margin-top: 80px;
-  }
-
-  .column_3_footer {
-     margin-top: 80px;
-     margin-left: 155px;
-  }
-
-  .copyright_footer {
-     margin-left: 150px;
-     margin-top: 295px;
-  }
-
-  /*REGISTRATON*/
-  .popup-content {
-     width: 400px;
-     margin-top: -60px;
-  }
-
-  #username {
-     margin-left: 90px;
-  }
-
-  #password {
-     margin-left: 90px;
-  }
-  .togglesss{
-     display: block;
-     cursor: pointer;
-   }
-   .nav{
-     display: block;
-     text-align: center;
-     padding-bottom: 160px;
-     padding-top: 80px;
-     font-size: 50px;
-   }
-   #toggle:checked + .container{
-     display: none;
-   } 
-   .header{
-     background-color:  rgb(110, 47, 47);
-     opacity: 0.9;
-   }
-   .header_logo{
-     display: none;
-   } 
-  .main{
-     display: inline-block;
-   }
-   .product-list p{
-     font-size: 10vw;
-   }
-   .class{margin-top: 2vw;}
-   .product-list h3{
-     font-size: 5vw;
-   }
-   .button{
-     font-size: 4vw;
-     height: 5vw;
-   }
-   .small{
-     font-size:4vw;
-   }
-   .product-item{
-     width: 60vw;
-     align-items: center;
-     margin-left: 18vw;
-   }
-  
-   .main2{
-     display: inline-block;
-     
-   }
-   .main3{
-     display: inline-block;
-     
-   }
-   .main4{
-     display: inline-block;
-     margin-left: -3.5vw;
+   .imgintro2{
+      width: 98.82869692532942vw;
+      height: 20vh;
    }
    
- .hoodie{
-   margin-left: -10vw;
-   margin-top: -2vw;
- }
- .gmail{
-   margin-left: -20vw;
- } 
- .price__currency{
-  font-size: large;
- }
- .colss{
-  font-size: large;
- }
- .choice{
-  font-size: large;
- }
- .card-title{
-  font-size: large;
- }
- .Pusto{
-  background-color: #444444;
-  background-size: 10.8301610541727673vw;
-  color: #fafafa;
-  height: 8.8301610541727673vw;
-  font-size: 20px;
- }
- .card-total ,.h4, .delivery-cost, .h5, .total-price, .rouble{
-  font-size: large;
- }
- .card-total .small{
-  font-size: smaller;
- }
-
+   /*FOOTER*/
+   .footer {
+      height: 400px;
+   }
+ 
+   .logo_footer {
+      margin-top: -20px;
+      margin-left: 190px;
+   }
+ 
+   .column_1_footer {
+      margin-left: -420px;
+      margin-right: 45px;
+      margin-top: 80px;
+   }
+ 
+   .column_2_footer {
+      margin-top: 80px;
+   }
+ 
+   .column_3_footer {
+      margin-top: 20px;
+      margin-left: 200px;
+   }
+ 
+   .copyright_footer {
+      margin-left: 150px;
+      margin-top: 295px;
+   }
+ 
+   /* REGISTRATON
+   .popup-content {
+      width: 400px;
+      margin-top: -60px;
+   }
+ 
+   #username {
+      margin-left: 90px;
+   }
+ 
+   #password {
+      margin-left: 90px;
+   }
+   .togglesss{
+      display: block;
+      cursor: pointer;
+    } */
+    .nav{
+      display: block;
+      text-align: center;
+      padding-bottom: 160px;
+      padding-top: 80px;
+      font-size: 50px;
+    }
+    #toggle:checked + .container{
+      display: none;
+    } 
+    .header{
+      background-color:  rgb(110, 47, 47);
+      opacity: 0.9;
+    }
+    .header_logo{
+      display: none;
+    } 
+   .main{
+      display: inline-block;
+    }
+    .product-list p{
+      font-size: 10vw;
+    }
+    .class{margin-top: 2vw;}
+    .product-list h3{
+      font-size: 5vw;
+    }
+    .button{
+      font-size: 4vw;
+      height: 5vw;
+    }
+    .small{
+      font-size:4vw;
+    }
+    .product-item{
+      width: 60vw;
+      align-items: center;
+      margin-left: 18vw;
+    }
+   
+    .main2{
+      display: inline-block;
+      
+    }
+    .main3{
+      display: inline-block;
+      
+    }
+    .main4{
+      display: inline-block;
+      margin-left: -3.5vw;
+    }
+    
+  .hoodie{
+    margin-left: -10vw;
+    margin-top: -2vw;
   }
-
-
+  .gmail{
+    margin-left: -20vw;
+  } 
+  .price__currency{
+   font-size: large;
+  }
+  .colss{
+   font-size: large;
+  }
+  .choice{
+   font-size: large;
+  }
+  .card-title{
+   font-size: large;
+  }
+  .Pusto{
+   background-color: #444444;
+   background-size: 10.8301610541727673vw;
+   color: #fafafa;
+   height: 8.8301610541727673vw;
+   font-size: 20px;
+  }
+  .card-total ,.h4, .delivery-cost, .h5, .total-price, .rouble{
+   font-size: large;
+  }
+  .card-total .small{
+   font-size: smaller;
+  }
+ 
+  }
 

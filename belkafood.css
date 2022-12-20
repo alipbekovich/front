@@ -1,6 +1,6 @@
 
 .header{
-   background-color: rgb(110, 47, 47);
+   background-color:rgb(241, 142, 28);
  }
  body{
   overflow-x: hidden;
@@ -554,7 +554,7 @@ font-size: 0.9516837481698389vw;
      display: none;
    } 
    .header{
-     background-color:  rgb(110, 47, 47);
+     background-color:  rgb(241, 142, 28);
      opacity: 0.9;
    }
    .header_logo{
@@ -711,9 +711,10 @@ font-size: 0.9516837481698389vw;
       display: none;
     } 
     .header{
-      background-color:  rgb(110, 47, 47);
+      background-color:  rgb(241, 142, 28);
       opacity: 0.9;
     }
+    
     .header_logo{
       display: none;
     } 
@@ -784,6 +785,9 @@ font-size: 0.9516837481698389vw;
   }
   .card-total .small{
    font-size: smaller;
+  }
+  .nav_link{
+    font-size: 20vw;
   }
  
   }

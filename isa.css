@@ -849,7 +849,7 @@
 
 
 
-@media (max-width: 1024px) {
+@media screen and (min-width:667px) and (max-width:1024px){
    .imgintro{
       width: 95.1683748169839vw;
       height: 100vh;

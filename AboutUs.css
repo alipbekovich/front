@@ -507,7 +507,7 @@ body{
 	}
 
 	.copyright_footer {
-		margin-left: 150px;
+		margin-left: 40px;
 		margin-top: 295px;
 	}
 
@@ -633,12 +633,11 @@ body{
  
 	 .logo_footer {
 		 margin-top: -20px;
-		 margin-left: 280px;
+		 margin-left: 470px;
 	 }
  
 	 .column_1_footer {
-		 margin-left: -420px;
-		 margin-right: 45px;
+		 margin-left: -600px;
 		 margin-top: 80px;
 	 }
  
@@ -648,11 +647,11 @@ body{
  
 	 .column_3_footer {
 		 margin-top: 80px;
-		 margin-left: -155px;
+		 margin-right: 300px;
 	 }
  
 	 .copyright_footer {
-		 margin-left: 150px;
+		 margin-left: 430px;
 		 margin-top: 295px;
 	 }
  
@@ -669,9 +668,7 @@ body{
 	 #password {
 		 margin-left: 90px;
 	 }
-	 .container{
-		display: none;
-	 }
+	 
 
 	 .togglesss{
 		display: block;
@@ -680,9 +677,7 @@ body{
 	 .nav{
 		display: block;
 		text-align: center;
-		padding-bottom: 220px;
-		padding-top: 80px;
-		font-size: 50px;
+		font-size: 110px;
 	 }
 	 #toggle:checked + .container{
 		display: none;

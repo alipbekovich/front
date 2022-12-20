@@ -548,7 +548,7 @@ body{
 }
 
 
-@media screen and(min-width:700px)and(max-width: 1024px) {
+@media screen and (min-width:667px) and (max-width:1024px){
 	.team_members_people {
 		 display: flex;
 		 flex-direction: column;
@@ -672,4 +672,26 @@ body{
 	 .container{
 		display: none;
 	 }
+
+	 .togglesss{
+		display: block;
+		cursor: pointer;
+	 }
+	 .nav{
+		display: block;
+		text-align: center;
+		padding-bottom: 220px;
+		padding-top: 80px;
+		font-size: 50px;
+	 }
+	 #toggle:checked + .container{
+		display: none;
+	 } 
+	 .header{
+		background-color: #e29f01;
+		opacity: 0.9;
+	 }
+	 .header_logo{
+		display: none;
+	 } 
  }

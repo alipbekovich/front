@@ -786,6 +786,7 @@ font-size: 0.9516837481698389vw;
        }
        .main3{
          display: inline-block;
+         margin-left: 0.1vw;
        }
        .main4{
          display: inline-block;

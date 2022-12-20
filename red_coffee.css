@@ -673,6 +673,10 @@ font-size: 0.9516837481698389vw;
   .gmail{
     margin-left: -20vw;
   } 
+  .btn{
+   font-size: 3vw;
+  }
+  
    }
    @media screen and (min-width:667px) and (max-width:1024px){
       .price__currency{
